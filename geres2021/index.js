@@ -1,22 +1,8 @@
-/*
-
-let map;
-
-function initMap() {
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 41.6403, lng: -8.3689 },
-    zoom: 8,
-  });
-}
-
-*/
-
-
 var overlay;
 
 myOverlay.prototype = new google.maps.OverlayView();
 
-function initialize(){
+function initMap(){
     var myLatLng = new google.maps.LatLng(51.036551, 1.488292);
     var myOptions = {
         zoom:9,
@@ -34,15 +20,6 @@ function initialize(){
     var bounds = new google.maps.LatLngBounds(swBound,neBound);
     var imageCode = '<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" class="svg-editor"><g><rect id="svg_5" height="181" width="311" y="95.25" x="47.75" stroke-width="5" fill="#FF0000"/></g></svg>';
     overlay = new myOverlay(bounds, imageCode, map);
-
-    
-    /*
-      google.maps.event.addDomListener(mapEl, 'resize', function (e) {
-      //console.log('Resize', e);
-      //mapEl already triggers this function when it's resized and so forms a circular loop (BAD IDEA)
-      //google.maps.event.trigger(map, 'resize');
-      });
-    */
     
 }
 
@@ -108,4 +85,3 @@ myOverlay.prototype.onRemove = function(){
     this.div_ = null;
 };
 
-initialize();
