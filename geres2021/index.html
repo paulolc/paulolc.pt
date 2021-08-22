@@ -1,49 +1,18 @@
 <!DOCTYPE html>
-<!-- saved from url=(0046)https://jsfiddle.net/vekkth0r/afov72Lr/15/show -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    
-    <meta http-equiv="edit-Type" edit="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>JSFiddle</title>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div id="map"></div>
 
-      <meta name="robots" content="index, follow">
-      <meta name="googlebot" content="index, follow">
-
-      <script type="text/javascript">
-        var height
-        var force_height = null
-        var slug = "afov72Lr"
-        var show_src = "//fiddle.jshell.net/vekkth0r/afov72Lr/15/show/light/"
-        var resize_element_counter = 0
-        var shell_edit_url = "/vekkth0r/afov72Lr/15/light/"
-      </script>
-
-      <script src="./JSFiddle_files/embed.js.transferir"></script>
-      <link rel="stylesheet" media="screen" href="./JSFiddle_files/embed-light.css">
-      <link rel="icon" href="https://jsfiddle.net/img/favicon.png">
-  <style>
-            .flipX video::-webkit-media-text-track-display {
-                transform: matrix(-1, 0, 0, 1, 0, 0) !important;
-            }
-            .flipXY video::-webkit-media-text-track-display {
-                transform: matrix(-1, 0, 0, -1, 0, 0) !important;
-            }
-            .flipXYX video::-webkit-media-text-track-display {
-                transform: matrix(1, 0, 0, -1, 0, 0) !important;
-            }</style></head>
-  <body id="sylvester-standalone">
-    <a class="toEditor" href="https://jsfiddle.net/vekkth0r/afov72Lr/15/" target="_blank">
-      <svg width="34" height="40">
-      <use xlink:href="//jsfiddle.net/sprite.svg#logo"></use>
-    </svg>Edit in JSFiddle
-    </a>
-
-    <div id="result">
-      
-    <iframe src="./JSFiddle_files/saved_resource.html" frameborder="0" sandbox="allow-forms allow-scripts allow-same-origin allow-top-navigation-by-user-activation allow-downloads allow-modals allow-popups" allow="midi; geolocation; microphone; camera; display-capture; encrypted-media;"></iframe></div>
-
-    
-  
-
-</body></html>
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_pOkCs76n4ewM0-xED1HnwJj04SLsAZM&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+  </body>
+</html>
