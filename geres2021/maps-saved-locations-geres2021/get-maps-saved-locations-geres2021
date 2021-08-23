@@ -1,0 +1,74 @@
+#!/bin/bash
+
+# Check the requests taken from chrome devtools when listing the saved locations list and copy them as curls 
+# Don't forget to scroll. There's one request per 20 locations
+
+PARAMS="$@"
+
+MAIN(){
+#    getrawdata | processdata | tee maps-saved-locations-geres2021.json | jq .
+    getrawdata | processdata | tee maps-saved-locations-geres2021.json | jq .
+
+}
+
+function processdata(){
+  jq '[.[][0][1][]| { name: .[14][11], type: .[14][13][0], placeid: .[14][78], subtype: .[14][25][15][-1][2] , cid: .[14][37][0][0][29][1] , address: .[14][18],  coords: { latitude: .[14][9][2], longitude: .[14][9][3] } }] '
+  #jq '[.[][0][1][]| { name: .[14][11], type: .[14][13][0], subtype: .[14][25][15][2][2] , cid: .[14][37][0][0][30][1] ,  coords: { latitude: .[14][9][2], longitude: .[14][9][3] } }] '
+  #jq '[.[][0][1][]| { name: .[14][11], type: .[14][13][0], subtype: .[14][25][15][2][2] , cid: .[14][18] ,  coords: { latitude: .[14][9][2], longitude: .[14][9][3] } }] '
+}
+
+function getrawdata(){
+  if [ -f rawdata.json ] && [ "$PARAMS" != "--refresh" ]  ;then
+    cat rawdata.json
+  else
+    ( echo "["; ( ( get-maps-saved-locations-geres2021_01-20 | fixjson ) ; echo; echo "," ; (  get-maps-saved-locations-geres2021_21-40  | fixjson  ) ) ; echo ; echo "]" ) | tee rawdata.json 
+  fi
+}
+
+function fixjson(){
+   jq .d 2> /dev/null | sed -e 's_\\"_"_g' -e 's_"$__' -e 's_^[^n]*n__'
+}
+
+
+function get-maps-saved-locations-geres2021_01-20(){
+  curl $'https://www.google.com/search?tbm=map&authuser=0&hl=pt-PT&gl=pt&pb=\u00214m12\u00211m3\u00211d164968.43650094795\u00212d-8.273259585756401\u00213d41.64802190198326\u00212m3\u00211f0\u00212f0\u00213f0\u00213m2\u00211i1215\u00212i1328\u00214f13.1\u00217i20\u002110b1\u002112m8\u00211m1\u002118b1\u00212m3\u00215m1\u00216e2\u002120e3\u002110b1\u002116b1\u002119m4\u00212m3\u00211i360\u00212i120\u00214i8\u002120m57\u00212m2\u00211i203\u00212i100\u00213m2\u00212i4\u00215b1\u00216m6\u00211m2\u00211i86\u00212i86\u00211m2\u00211i408\u00212i240\u00217m42\u00211m3\u00211e1\u00212b0\u00213e3\u00211m3\u00211e2\u00212b1\u00213e2\u00211m3\u00211e2\u00212b0\u00213e3\u00211m3\u00211e8\u00212b0\u00213e3\u00211m3\u00211e10\u00212b0\u00213e3\u00211m3\u00211e10\u00212b1\u00213e2\u00211m3\u00211e9\u00212b1\u00213e2\u00211m3\u00211e10\u00212b0\u00213e3\u00211m3\u00211e10\u00212b1\u00213e2\u00211m3\u00211e10\u00212b0\u00213e4\u00212b1\u00214b1\u00219b0\u002122m5\u00211s__0iYbHxDYapgAbVoZSwDQ%3A562\u00212zMWk6MCx0OjM5NTE4LGU6NyxwOl9fMGlZYkh4RFlhcGdBYlZvWlN3RFE6NTYy\u00214m1\u00212i39518\u00217e81\u002124m57\u00211m19\u002113m8\u00212b1\u00213b1\u00214b1\u00216i1\u00218b1\u00219b1\u002114b1\u002120b1\u002118m9\u00213b1\u00214b1\u00215b1\u00216b1\u00219b1\u002112b0\u002113b1\u002114b0\u002115b0\u00212b1\u00215m5\u00212b1\u00213b1\u00215b1\u00216b1\u00217b1\u002110m1\u00218e3\u002114m1\u00213b1\u002117b1\u002120m2\u00211e3\u00211e6\u002124b1\u002125b1\u002126b1\u002129b1\u002130m1\u00212b1\u002136b1\u002143b1\u002152b1\u002154m1\u00211b1\u002155b1\u002156m2\u00211b1\u00213b1\u002165m5\u00213m4\u00211m3\u00211m2\u00211i224\u00212i298\u002189b1\u002126m4\u00212m3\u00211i80\u00212i92\u00214i8\u002130m28\u00211m6\u00211m2\u00211i0\u00212i0\u00212m2\u00211i458\u00212i1328\u00211m6\u00211m2\u00211i1165\u00212i0\u00212m2\u00211i1215\u00212i1328\u00211m6\u00211m2\u00211i0\u00212i0\u00212m2\u00211i1215\u00212i20\u00211m6\u00211m2\u00211i0\u00212i1308\u00212m2\u00211i1215\u00212i1328\u002134m17\u00212b1\u00213b1\u00214b1\u00216b1\u00218m5\u00211b1\u00213b1\u00214b1\u00215b1\u00216b1\u00219b1\u002112b1\u002114b1\u002120b1\u002123b1\u002125b1\u002126b1\u002137m1\u00211e81\u002142b1\u002147m0\u002149m3\u00213b1\u00217m1\u00211e3\u002150m4\u00212e2\u00213m2\u00211b1\u00213b1\u002154m2\u00211e3\u00212sEjlVY74hP4yY5-kcTFWdC8oKNdckCQ\u002165m1\u00211b1\u002167m2\u00217b1\u002110b1\u002169i569&q=*&tch=1&ech=2&psi=__0iYbHxDYapgAbVoZSwDQ.1629683199678.1' \
+    -H 'authority: www.google.com' \
+    -H 'sec-ch-ua: "Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"' \
+    -H 'sec-ch-ua-mobile: ?0' \
+    -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36' \
+    -H 'accept: */*' \
+    -H 'x-client-data: CJW2yQEIorbJAQjBtskBCKmdygEI0qDKAQiY5coBCNCaywEIjJ7LAQihoMsBCO/yywEIzvbLAQiz+MsBCJ75ywEI9fnLAQiw+ssBCOP9ywEYj/XLAQ==' \
+    -H 'sec-fetch-site: same-origin' \
+    -H 'sec-fetch-mode: cors' \
+    -H 'sec-fetch-dest: empty' \
+    -H 'referer: https://www.google.com/' \
+    -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8,pt;q=0.7,es;q=0.6,fr;q=0.5' \
+    -H 'cookie: CGIC=EhcxQzFHQ0VVX3B0LVBUUFQ5MDZQVDkwNiKHAXRleHQvaHRtbCxhcHBsaWNhdGlvbi94aHRtbCt4bWwsYXBwbGljYXRpb24veG1sO3E9MC45LGltYWdlL2F2aWYsaW1hZ2Uvd2VicCxpbWFnZS9hcG5nLCovKjtxPTAuOCxhcHBsaWNhdGlvbi9zaWduZWQtZXhjaGFuZ2U7dj1iMztxPTAuOQ; CONSENT=YES+PT.en+20150803-20-0; OGPC=19022591-1:; HSID=ASMGSCmumKRShwvyd; SSID=Ak4OnCc3G_Zq3Y95N; APISID=Xyz72IllLQHonFmU/A4Dq3ceNUlgdZfi42; SAPISID=IshOvhhDQOCC7PMk/ABHrPt1Bqqf-EMgTM; __Secure-1PAPISID=IshOvhhDQOCC7PMk/ABHrPt1Bqqf-EMgTM; __Secure-3PAPISID=IshOvhhDQOCC7PMk/ABHrPt1Bqqf-EMgTM; SID=BAgCoOauxryF093tnigly45qJnElMtc8xRHZul2MWw6cHTmK_vjlhKdztkRU6HNowocTuQ.; __Secure-1PSID=BAgCoOauxryF093tnigly45qJnElMtc8xRHZul2MWw6cHTmKU0AIuxrUIL2S46fzffPBlw.; __Secure-3PSID=BAgCoOauxryF093tnigly45qJnElMtc8xRHZul2MWw6cHTmKhXQkL_zHGPXjmcRMIzxYLw.; S=billing-ui-v3=lh4WJTOQggAW97ItC6iRjfH8kdzzsKKL:billing-ui-v3-efe=lh4WJTOQggAW97ItC6iRjfH8kdzzsKKL; SEARCH_SAMESITE=CgQIrpMB; NID=221=0d2fZe24tCNpnJn5u3-lp_UqZtjVwY3StERWYfkb6DzSAPoeeJydrnNCeWLudp6dhXCD6Fjm9Pscd2H0riP6TAwCXxiIEE1QGUnYzuc10PHVW1rI4fwiGPeVAdYC1EdkSZ0k65c1DOfMrM_8d9XLXFxnlLXNENLG5h3NEYhDZZFREW18G9ZtzRCeLuBbdp3KmHcszcRQbRk56_e2o4KUhZ1hBYGYpEhf3MlE325mjTumlBhlGFgauMePmrOWtpYK4fk_GgFf8wo8FG2l1Xr9t8XVS5zDREPDYQrUVDpriO1LHDMtvO2JuIkz1ZQ68BATfCY4J7yv15SMgcPzbZtmstIRSoDv4ZwPlfdk7AdDjBG4RgYy0jUDMlzsSID7O6sJJzh6c8szqMi7hm8SYYycBsYEJSKEatxTSwBH0EVnROAj2RLPAHWcW4y3DKcPxuqEPnCmMs4-b26pcszOWSF7S55iU_SnRkx70vknmEgySuWuAlBaC6iO4AYjofFGYocQEsoNUe_nzOl1ecv8oXTou7kwUOz2T71QA79hei6uj_qQlwNDjr6MfvDx35ecK8No7jEWYr4FO7cqhb0MuzFPzCpnCzBS4TBRDSqAFI52Ao2ZGNZLcS0RY9YikX1-WndEPtFz1R2fn1JYLmB7xRnxK0TMFjun5_V_OZy37bXhwOhSlAxUTxA8TdkpmpozoTQPcJUG5d6jPmmwdCrlawBb0g; 1P_JAR=2021-08-23-01; DV=E5qg8BshT8VDIBy4P1MyROuA-u0Ktxf9f7ObE3W7NwEAADBkvrWJBdXBZAAAANzFZJzq8GqIOwAAAA; UULE=a+cm9sZTogMQpwcm9kdWNlcjogMTIKdGltZXN0YW1wOiAxNjI5NjgzMTEzNDE4MDAwCmxhdGxuZyB7CiAgbGF0aXR1ZGVfZTc6IDM4NzI3OTE4MQogIGxvbmdpdHVkZV9lNzogLTkzMjI3NzI2Cn0KcmFkaXVzOiAxNjEyMApwcm92ZW5hbmNlOiA2Cg==; SIDCC=AJi4QfGnIABHFAPpO2e6x-AmGDKm3vlYueoVqACnN-qIRNLt2FNXlK8PBsu3d8zTkwgKXbjfWBo; __Secure-3PSIDCC=AJi4QfFi8CDPGOUmQ2BDweZHcMalVLV9N--V__daFl8dgeePx0aqQhIhJZRqkg7ZTmqLXKrdIuw' \
+    ;
+}
+
+function get-maps-saved-locations-geres2021_21-40(){
+  curl $'https://www.google.com/search?tbm=map&authuser=0&hl=pt-PT&gl=pt&pb=\u00214m12\u00211m3\u00211d164968.43650094795\u00212d-8.273259585756401\u00213d41.64802190198326\u00212m3\u00211f0\u00212f0\u00213f0\u00213m2\u00211i1215\u00212i1328\u00214f13.1\u00217i20\u00218i20\u002110b1\u002112m8\u00211m1\u002118b1\u00212m3\u00215m1\u00216e2\u002120e3\u002110b1\u002116b1\u002119m4\u00212m3\u00211i360\u00212i120\u00214i8\u002120m57\u00212m2\u00211i203\u00212i100\u00213m2\u00212i4\u00215b1\u00216m6\u00211m2\u00211i86\u00212i86\u00211m2\u00211i408\u00212i240\u00217m42\u00211m3\u00211e1\u00212b0\u00213e3\u00211m3\u00211e2\u00212b1\u00213e2\u00211m3\u00211e2\u00212b0\u00213e3\u00211m3\u00211e8\u00212b0\u00213e3\u00211m3\u00211e10\u00212b0\u00213e3\u00211m3\u00211e10\u00212b1\u00213e2\u00211m3\u00211e9\u00212b1\u00213e2\u00211m3\u00211e10\u00212b0\u00213e3\u00211m3\u00211e10\u00212b1\u00213e2\u00211m3\u00211e10\u00212b0\u00213e4\u00212b1\u00214b1\u00219b0\u002122m2\u00211s__0iYbHxDYapgAbVoZSwDQ\u00217e81\u002124m57\u00211m19\u002113m8\u00212b1\u00213b1\u00214b1\u00216i1\u00218b1\u00219b1\u002114b1\u002120b1\u002118m9\u00213b1\u00214b1\u00215b1\u00216b1\u00219b1\u002112b0\u002113b1\u002114b0\u002115b0\u00212b1\u00215m5\u00212b1\u00213b1\u00215b1\u00216b1\u00217b1\u002110m1\u00218e3\u002114m1\u00213b1\u002117b1\u002120m2\u00211e3\u00211e6\u002124b1\u002125b1\u002126b1\u002129b1\u002130m1\u00212b1\u002136b1\u002143b1\u002152b1\u002154m1\u00211b1\u002155b1\u002156m2\u00211b1\u00213b1\u002165m5\u00213m4\u00211m3\u00211m2\u00211i224\u00212i298\u002189b1\u002126m4\u00212m3\u00211i80\u00212i92\u00214i8\u002130m28\u00211m6\u00211m2\u00211i0\u00212i0\u00212m2\u00211i458\u00212i1328\u00211m6\u00211m2\u00211i1165\u00212i0\u00212m2\u00211i1215\u00212i1328\u00211m6\u00211m2\u00211i0\u00212i0\u00212m2\u00211i1215\u00212i20\u00211m6\u00211m2\u00211i0\u00212i1308\u00212m2\u00211i1215\u00212i1328\u002134m17\u00212b1\u00213b1\u00214b1\u00216b1\u00218m5\u00211b1\u00213b1\u00214b1\u00215b1\u00216b1\u00219b1\u002112b1\u002114b1\u002120b1\u002123b1\u002125b1\u002126b1\u002137m1\u00211e81\u002142b1\u002147m0\u002149m3\u00213b1\u00217m1\u00211e3\u002150m4\u00212e2\u00213m2\u00211b1\u00213b1\u002154m2\u00211e3\u00212sEjlVY74hP4yY5-kcTFWdC8oKNdckCQ\u002165m1\u00211b1\u002167m2\u00217b1\u002110b1\u002169i569&q=*&tch=1&ech=3&psi=__0iYbHxDYapgAbVoZSwDQ.1629683199678.1' \
+    -H 'authority: www.google.com' \
+    -H 'sec-ch-ua: "Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"' \
+    -H 'sec-ch-ua-mobile: ?0' \
+    -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36' \
+    -H 'accept: */*' \
+    -H 'x-client-data: CJW2yQEIorbJAQjBtskBCKmdygEI0qDKAQiY5coBCNCaywEIjJ7LAQihoMsBCO/yywEIzvbLAQiz+MsBCJ75ywEI9fnLAQiw+ssBCOP9ywEYj/XLAQ==' \
+    -H 'sec-fetch-site: same-origin' \
+    -H 'sec-fetch-mode: cors' \
+    -H 'sec-fetch-dest: empty' \
+    -H 'referer: https://www.google.com/' \
+    -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8,pt;q=0.7,es;q=0.6,fr;q=0.5' \
+    -H 'cookie: CGIC=EhcxQzFHQ0VVX3B0LVBUUFQ5MDZQVDkwNiKHAXRleHQvaHRtbCxhcHBsaWNhdGlvbi94aHRtbCt4bWwsYXBwbGljYXRpb24veG1sO3E9MC45LGltYWdlL2F2aWYsaW1hZ2Uvd2VicCxpbWFnZS9hcG5nLCovKjtxPTAuOCxhcHBsaWNhdGlvbi9zaWduZWQtZXhjaGFuZ2U7dj1iMztxPTAuOQ; CONSENT=YES+PT.en+20150803-20-0; OGPC=19022591-1:; HSID=ASMGSCmumKRShwvyd; SSID=Ak4OnCc3G_Zq3Y95N; APISID=Xyz72IllLQHonFmU/A4Dq3ceNUlgdZfi42; SAPISID=IshOvhhDQOCC7PMk/ABHrPt1Bqqf-EMgTM; __Secure-1PAPISID=IshOvhhDQOCC7PMk/ABHrPt1Bqqf-EMgTM; __Secure-3PAPISID=IshOvhhDQOCC7PMk/ABHrPt1Bqqf-EMgTM; SID=BAgCoOauxryF093tnigly45qJnElMtc8xRHZul2MWw6cHTmK_vjlhKdztkRU6HNowocTuQ.; __Secure-1PSID=BAgCoOauxryF093tnigly45qJnElMtc8xRHZul2MWw6cHTmKU0AIuxrUIL2S46fzffPBlw.; __Secure-3PSID=BAgCoOauxryF093tnigly45qJnElMtc8xRHZul2MWw6cHTmKhXQkL_zHGPXjmcRMIzxYLw.; S=billing-ui-v3=lh4WJTOQggAW97ItC6iRjfH8kdzzsKKL:billing-ui-v3-efe=lh4WJTOQggAW97ItC6iRjfH8kdzzsKKL; SEARCH_SAMESITE=CgQIrpMB; NID=221=0d2fZe24tCNpnJn5u3-lp_UqZtjVwY3StERWYfkb6DzSAPoeeJydrnNCeWLudp6dhXCD6Fjm9Pscd2H0riP6TAwCXxiIEE1QGUnYzuc10PHVW1rI4fwiGPeVAdYC1EdkSZ0k65c1DOfMrM_8d9XLXFxnlLXNENLG5h3NEYhDZZFREW18G9ZtzRCeLuBbdp3KmHcszcRQbRk56_e2o4KUhZ1hBYGYpEhf3MlE325mjTumlBhlGFgauMePmrOWtpYK4fk_GgFf8wo8FG2l1Xr9t8XVS5zDREPDYQrUVDpriO1LHDMtvO2JuIkz1ZQ68BATfCY4J7yv15SMgcPzbZtmstIRSoDv4ZwPlfdk7AdDjBG4RgYy0jUDMlzsSID7O6sJJzh6c8szqMi7hm8SYYycBsYEJSKEatxTSwBH0EVnROAj2RLPAHWcW4y3DKcPxuqEPnCmMs4-b26pcszOWSF7S55iU_SnRkx70vknmEgySuWuAlBaC6iO4AYjofFGYocQEsoNUe_nzOl1ecv8oXTou7kwUOz2T71QA79hei6uj_qQlwNDjr6MfvDx35ecK8No7jEWYr4FO7cqhb0MuzFPzCpnCzBS4TBRDSqAFI52Ao2ZGNZLcS0RY9YikX1-WndEPtFz1R2fn1JYLmB7xRnxK0TMFjun5_V_OZy37bXhwOhSlAxUTxA8TdkpmpozoTQPcJUG5d6jPmmwdCrlawBb0g; 1P_JAR=2021-08-23-01; DV=E5qg8BshT8VDIBy4P1MyROuA-u0Ktxf9f7ObE3W7NwEAADBkvrWJBdXBZAAAANzFZJzq8GqIOwAAAA; UULE=a+cm9sZTogMQpwcm9kdWNlcjogMTIKdGltZXN0YW1wOiAxNjI5NjgzMTEzNDE4MDAwCmxhdGxuZyB7CiAgbGF0aXR1ZGVfZTc6IDM4NzI3OTE4MQogIGxvbmdpdHVkZV9lNzogLTkzMjI3NzI2Cn0KcmFkaXVzOiAxNjEyMApwcm92ZW5hbmNlOiA2Cg==; SIDCC=AJi4QfHrGuyavh1-YX4lsjrX4hfkIh-k8RDI6T9rjJ6a4umzPtZ1-pO-OUfVhJiJMVwbo-ukJ0M; __Secure-3PSIDCC=AJi4QfHey3ljFhVb-C-TmZr1y_CAJgD0CNTmwjgto-WkTPKZOpLIwpvRZx0RNM7qDk3Ay3B_ceY' \
+
+}
+
+
+
+
+
+MAIN
+
+# https://maps.google.com/maps?cid=3012184371174363947
+# ("https://maps.google.com/maps?cid="+
