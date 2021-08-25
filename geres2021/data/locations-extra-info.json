@@ -1,0 +1,131 @@
+{
+    "Pingo Doce Braga - Frossos": {
+        "name": "Frossos"
+    },
+    "Pingo Doce Vila Verde": {
+        "name": "Vila Verde"
+    },
+        "Minipreço - Amares": {
+        "name": "Amares"
+    },
+
+
+    "Praia Fluvial do Barquinho": {
+        "name": "Barquinho"
+    },    
+    
+    "Praia Fluvial - Souto - Terras de Bouro": {
+        "name": "Souto"
+    },
+    "Praia Fluvial De Monsul": {
+        "name": "Monsul"
+    },
+    "Praia Fluvial de Barreiros": {
+        "name": "Barreiros"
+    },
+    "Praia Fluvial do Vau": {
+        "name": "Vau"
+    },
+    
+    
+    
+    "Praia da Barragem": {
+        "id":"praia-da-barragem-praia-do-ipanema-ilha-do-geres",
+        "name": "Barragem"
+    },
+    
+
+
+
+    "Bar da Praia fluvial de Verim": {
+        "id": "praia-fluvial-de-verim-povoa-de-lanhoso",
+        "name": "Verim"
+    },
+    "Parque Fluvial de Felinhos": {
+        "id": "parque-fluvial-de-felinhos-zona-de-lazer-e-praia-fluvial-amares",
+        "name": "Felinhos"
+    },
+    "Praia Fluvial Garrafas": {
+        "name": "Garrafas/Coucieiro"
+    },
+    "Praia Fluvial Soutelo": {
+		"id": "praia-fluvial-soutelo-vila-verde-braga",
+        "name": "Soutelo"
+    },
+    "Praia Fluvial da Barca": {
+		"id": "praia-fluvial-da-barca-geres",
+        "name": "Barca"
+    },
+    "Praia Fluvial da Loureira": {
+        "id": "praia-fluvial-da-loureira-vila-verde-braga",
+        "name": "Loureira"
+    },
+    "Praia Fluvial da Malheira": {
+		"id": "praia-fluvial-da-malheira-sabariz-vila-verde",
+        "name": "Malheira"
+    },
+    "Praia Fluvial da Moleira": {
+		"id": "praia-fluvial-da-moleira-rendufe-braga",
+        "name": "Moleira"
+    },
+    "Praia Fluvial da Palmeira": {
+		"id": "praia-fluvial-da-ponte-do-bico-palmeira-braga",
+        "name": "Palmeira"
+    },
+    "Praia Fluvial de Merelim (São Paio)": {
+		"id": "praia-fluvial-de-merelim-sao-paio-braga",
+        "name": "Merelim"
+    },
+    "Praia Fluvial de Navarra": {
+		"id": "praia-fluvial-de-navarra-braga",
+        "name": "Navarra"
+    },
+    "Praia Fluvial do Cavadinho": {
+		"id": "praia-fluvial-de-cavadinho-crespos-braga",
+        "name": "Cavadinho"
+    },
+    "Praia Fluvial do Faial": {
+		"id": "praia-fluvial-de-faial-vila-de-prado-vila-verde-braga",
+        "name": "Faial"
+    },
+    "Praia Fluvial do Rio Homem": {
+		"id": "praia-fluvial-do-rio-homem-covas-terras-de-bouro",
+        "name": "Rio Homem"
+    },
+    "Praia Fluvial dos Moinhos": {
+        "id":"praia-fluvial-dos-moinhos-amares-braga/",
+        "name": "Moinhos"
+    },
+    "Praia Gerês Albufeira": {
+        "id": "praia-fluvial-geres-albufeira",
+        "name": "Gerês Albufeira"
+    },
+    "Praia fluvial de Adaúfe": {
+        "id": "praia-fluvial-de-adaufe-braga-o-paraiso-do-cavado",
+        "name": "Adaúfe"
+    },
+    "Praia fluvial de Alqueirão": {
+        "id": "praia-fluvial-do-alqueirao-o-oasis-de-atividades-nauticas-do-geres",
+        "name": "Alqueirão"
+    },
+    "Praia fluvial de Vilar": {
+        "id": "praia-fluvial-de-vilar-terras-de-bouro",
+        "name": "Vilar"
+    },
+    "Quinta das Laranjairas De Amares": {
+        "name": "Casa"
+    },
+    "Praia Fluvial Garrafas, Coucieiro": {
+        "name": "Garrafas/Coucieiro"
+    },
+    "Saber ao Borralho": {},
+
+    "Sete Lagoas": {},
+    "Águas quentes de Lobios": {},
+    "Cascata de Pincães": {},
+    "Cascata de S. Miguel": {},
+    "Cascatas de Fecha de Barjas": {},
+    "Ilha do Ermal": {},
+    "Miradouro das Rocas": {},
+    "Poço Azul": {}
+}

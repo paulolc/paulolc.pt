@@ -2,34 +2,39 @@ var overlay;
 let map, popup, Popup;
 
 
+const ICONS_DIR = "./icons/";
 const ICONS_BY_TYPE={
-  "Supermercado" : "./icons/supermarket.png",
-  "Casa" : "http://maps.google.com/mapfiles/kml/pal2/icon10.png"
+  "Supermercado" : ICONS_DIR + "supermarket.png",
+  "Minipreço" : ICONS_DIR + "minipreco.png",
+  "Pingo Doce" : ICONS_DIR + "pd32x32.png",
+  "Casa" : "http://maps.google.com/mapfiles/kml/pal2/icon10.png",
+  "Cascata com Piscina Natural": ICONS_DIR + "waterfall.png",
+  "Piscina Fluvial": ICONS_DIR + "lake-blue.png",
+  "Piscina Natural": ICONS_DIR + "lake-blue.png",
+  "Praia Fluvial Selvagem": ICONS_DIR + "wetlands.png",
+  "Praia Fluvial com Bar": ICONS_DIR + "riparianhabitat.png",
+  "Praia à Beira Rio": ICONS_DIR + "beach-blue.png",
+  "Restaurante": ICONS_DIR + "restaurant.png",
+  "Zona de Lazer à Beira Rio": ICONS_DIR + "picnic-2.png"
 }
-
-const LOCATIONS_DATA={
-  "Praia Fluvial Garrafas, Coucieiro" : { 
-    name: "Praia Fluvial de Garrafas"
-  },
-  "Praia Fluvial De Monsul" : {
-    name: "Praia Fluvial De Monsul",
-    directions: "https://www.google.com/maps/dir/Quinta+das+Laranjairas+De+Amares,+Rua+Monte+de+Cima,+Lugar+do+Souto/Praia+Fluvial+De+Monsul,+Monsul/@41.628764,-8.3760754,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0xd2502441d1471ef:0x2d51126a6756f1fa!2m2!1d-8.3691095!2d41.6403535!1m5!1m1!1s0xd2503d8e6e837b3:0x356cc476c79f47ea!2m2!1d-8.3186369!2d41.6265784!3e0", 
-  }
+//  "Miradouro": ICONS_DIR + "",
 
 
-}
 
 function initMap(){
-  fetch('./locations.json')
+  fetch('./data/locations.json')
     .then(response => response.json())
-    .then(data => initialize( data ));
+    .then( locationsData => { 
+      fetch('./data/locations-extra-data.json')
+        .then(response => response.json())
+        .then( locationsExtraInfo => initialize( [ locationsData, locationsExtraInfo ] ));
+    });
 }
 
+function initialize( locationsFullData ) {
+  const LOCATIONS = locationsFullData[0];
+  const LOCATIONS_DATA = locationsFullData[1];
 
-
-
-function initialize( locations ) {
-  const LOCATIONS = locations;
   var myLatLng = new google.maps.LatLng(41.640384399999995, -8.368992);
   var myOptions = {
     zoom: 13,
@@ -42,15 +47,6 @@ function initialize( locations ) {
   map = new google.maps.Map(mapEl, myOptions);
 
 
-
-
-
-  /*
-  var swBound = new google.maps.LatLng(41.630, -8.4);
-  var neBound = new google.maps.LatLng(41.649, -8.3);
-  var bounds = new google.maps.LatLngBounds(swBound, neBound);
-  var imageCode = '<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" class="svg-editor"><g><rect id="svg_5" height="181" width="311" y="95.25" x="47.75" stroke-width="5" fill="#FF0000"/></g></svg>';
-*/
 
  /**
    * A customized popup on the map.
@@ -117,8 +113,6 @@ function initialize( locations ) {
     let duration;
     let locationType;
     const tokens = ( location.subtype ? location.subtype.split(",") : [] ) ;
-    console.log("location.subtype:" + location.subtype);
-    console.log("tokens:" + tokens);
     locationType = ( tokens.length > 0 ? tokens[0] : location.type );
 
     if(tokens.length === 2){
@@ -146,7 +140,8 @@ function initialize( locations ) {
     //content.innerHtml= `<a href="https://maps.google.com/maps?cid=${location.cid}">${location.name}</a>` // a ${ duration !== "-1" ? " a " + duration :""}`;
     //console.log("content.innerHtml:" + content.innerHtml );
 
-    const locationName = ( LOCATIONS_DATA[ location.name ] ? LOCATIONS_DATA[ location.name ].name : location.name  ); 
+    const locationData = LOCATIONS_DATA[ location.name ];
+    const locationName = ( locationData ? locationData.name : location.name  ); 
     const directionsUrl = "https://www.google.com/maps/dir/?api=1&destination=" + encodeURIComponent(location.name) + "&destination_place_id=" + location.placeid + "&origin=Quinta%20das%20Laranjairas%20De%20Amares&origin_placeid=vFWZ2oSUS0&travelmode=car";
 
 
@@ -155,15 +150,30 @@ function initialize( locations ) {
     
     let locationNameDiv = document.createElement("div");
 
+    let additionalInfoLink = document.createElement("a");
+    console.log(locationData);
+    additionalInfoLink.href = (locationData ? ( locationData.aquapolis ? locationData.aquapolis.url : "http://slashdot.org" ) : "http://linkedin.com");
+    additionalInfoLink.innerText = (locationData ? locationData.name + " ": "" );
+    additionalInfoLink.target = "_blank";
+
     let seeInGoogleMapsLink = document.createElement("a");
     seeInGoogleMapsLink.href = "https://maps.google.com/maps?cid=" + location.cid 
-    seeInGoogleMapsLink.innerText = locationName
+    let gmapsiconImg = document.createElement("img");
+    gmapsiconImg.src= ICONS_DIR + "gmaps.svg";
+    gmapsiconImg.height = "10";
+    seeInGoogleMapsLink.appendChild(gmapsiconImg);
+    seeInGoogleMapsLink.target = "_blank";
 
     let directionsLink = document.createElement("a");
     directionsLink.href = directionsUrl; 
     directionsLink.innerText = ( duration  ?  duration :"" );
+    directionsLink.target = "_blank";
 
 
+    additionalInfoLink
+
+//    locationNameDiv.appendChild(document.createTextNode(locationName + " ")); 
+    locationNameDiv.appendChild(additionalInfoLink); 
     locationNameDiv.appendChild(seeInGoogleMapsLink);
     ( duration  ?  locationNameDiv.appendChild(document.createTextNode(" a ") ) :"" ) 
     locationNameDiv.appendChild(directionsLink);
