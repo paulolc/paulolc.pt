@@ -1,16 +1,34 @@
-/* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-       #map {
-        height: 100%;
-      }
-      
-      /* Optional: Makes the sample page fill the window. */
-      html,
-      body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
+
+body, html, .wrapper, .map-holder{
+  width: 100%;
+  height: 100%;
+  margin:0;
+}
+
+*{
+  font-family: Roboto;
+}
+
+a{
+  text-decoration: none !important;
+  color: #2196F3;
+  border-bottom: 1px solid #2196F3;
+}
+
+.wrapper{
+  position: relative;
+    overflow: hidden;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+  margin:0px;
+}
+
 
       /* The popup bubble styling. */
 .popup-bubble {
@@ -55,6 +73,7 @@
   border-right: 6px solid transparent;
   border-top: 8px solid white;
 */
+
 /* Arrow up
 border-left: 6px solid transparent;
 border-right: 6px solid transparent;
@@ -76,3 +95,90 @@ border-right: 6px solid white;
   /* The max width of the info window. */
   width: 200px;
 }
+
+.hidden-infopanel{
+  display:none;
+}
+
+.left-panel ul{
+  margin:0;
+  padding: 0;
+}
+
+.left-panel li{
+  list-style: none;
+  padding: 0px 0px;
+  color: #777;
+}
+
+.left-panel li:hover{
+  color: #4285F4;
+  cursor: pointer;
+}
+
+.left-panel li i{
+  vertical-align: middle;
+  margin-right: 0px;
+}
+
+.left-panel::-webkit-scrollbar {
+  width: 0px; /* For Chrome, Safari, and Opera */
+}
+
+.left-panel-holder {
+	left: 0;
+	top: 0;
+	width: 500px;
+    height: 100%;
+    z-index: 999;
+    position: absolute;
+    padding: 0px;
+    box-sizing: border-box;
+    transition:.5s;
+}
+
+.left-panel-closed .left-panel-holder{
+	left: -500px;
+}
+
+.left-panel{
+	width: 100%;
+	height: 100%;
+	box-shadow: 0px 0px 29px -8px #000;
+	background: rgba(255, 255, 255, 0.79);
+	padding: 0px;
+  overflow: auto;
+  box-sizing: border-box;
+  transition:.5s;
+}
+
+.left-panel-holder:hover .left-panel{
+	background: rgba(255, 255, 255, 1);
+}
+
+.top {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.left-panel-closed .bottom{
+	padding: 30px;
+}
+
+
+
+.left-panel-closed .left-panel-holder  .close-btn{
+	right: -90px;
+}
+
+.left-panel-holder i{
+	transition:.5s;
+}
+
+.left-panel-closed .left-panel-holder i{
+	transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+}
+

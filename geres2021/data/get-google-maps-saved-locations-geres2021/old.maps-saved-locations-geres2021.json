@@ -1,53 +1,5 @@
 [
   {
-    "name": "Pingo Doce Vila Verde",
-    "type": "Hipermercado",
-    "placeid": "ChIJ0RJn3a4BJQ0Rr0IXKXieioE",
-    "subtype": "Pingo Doce,15m",
-    "cid": "-9112296657108122961",
-    "address": "Pingo Doce Vila Verde, Av. Mesquita Gavião 206, 4730-010 Vila Verde",
-    "coords": {
-      "latitude": 41.6436378,
-      "longitude": -8.4334688
-    }
-  },
-  {
-    "name": "Pingo Doce Braga - Frossos",
-    "type": "Hipermercado",
-    "placeid": "ChIJZ6QcnWT_JA0RkgbQvd0FKhc",
-    "subtype": "Pingo Doce,23m",
-    "cid": "1669153061824628370",
-    "address": "Pingo Doce Braga - Frossos, R. de Cima 58, 4700-151 Frossos",
-    "coords": {
-      "latitude": 41.5649288,
-      "longitude": -8.449379799999999
-    }
-  },
-  {
-    "name": "Minipreço - Amares",
-    "type": "Hipermercado",
-    "placeid": "ChIJtaZJJ2QCJQ0RupcQ8i7bZ8U",
-    "subtype": "Minipreço,6m",
-    "cid": "-4222165130960398406",
-    "address": "Minipreço - Amares, R. Nossa Sra. do Ó 22, 4720-393 Ferreiros",
-    "coords": {
-      "latitude": 41.6303603,
-      "longitude": -8.3598745
-    }
-  },
-  {
-    "name": "Praia Fluvial Quinta do Rio",
-    "type": "Atração Turística",
-    "placeid": "ChIJKbap_VEdJQ0R5VZjoO7KpmY",
-    "subtype": "Praia Fluvial boa para saltos,0m",
-    "cid": "7396822564244510437",
-    "address": "Praia Fluvial Quinta do Rio, EM595-1",
-    "coords": {
-      "latitude": 41.6539578,
-      "longitude": -8.2504118
-    }
-  },
-  {
     "name": "Praia Fluvial De Monsul",
     "type": "Bar",
     "placeid": "ChIJszfo5tgDJQ0R6kefx3bEbDU",
@@ -228,6 +180,54 @@
     }
   },
   {
+    "name": "Praia Fluvial Quinta do Rio",
+    "type": "Atração Turística",
+    "placeid": "ChIJKbap_VEdJQ0R5VZjoO7KpmY",
+    "subtype": null,
+    "cid": "7396822564244510437",
+    "address": "Praia Fluvial Quinta do Rio, EM595-1",
+    "coords": {
+      "latitude": 41.6539578,
+      "longitude": -8.2504118
+    }
+  },
+  {
+    "name": "Minipreço - Amares",
+    "type": "Hipermercado",
+    "placeid": "ChIJtaZJJ2QCJQ0RupcQ8i7bZ8U",
+    "subtype": "Supermercado,6m",
+    "cid": "-4222165130960398406",
+    "address": "Minipreço - Amares, R. Nossa Sra. do Ó 22, 4720-393 Ferreiros",
+    "coords": {
+      "latitude": 41.6303603,
+      "longitude": -8.3598745
+    }
+  },
+  {
+    "name": "Pingo Doce Vila Verde",
+    "type": "Hipermercado",
+    "placeid": "ChIJ0RJn3a4BJQ0Rr0IXKXieioE",
+    "subtype": "Supermercado,15m",
+    "cid": "-9112296657108122961",
+    "address": "Pingo Doce Vila Verde, Av. Mesquita Gavião 206, 4730-010 Vila Verde",
+    "coords": {
+      "latitude": 41.6436378,
+      "longitude": -8.4334688
+    }
+  },
+  {
+    "name": "Pingo Doce Braga - Frossos",
+    "type": "Hipermercado",
+    "placeid": "ChIJZ6QcnWT_JA0RkgbQvd0FKhc",
+    "subtype": "Supermercado,23m",
+    "cid": "1669153061824628370",
+    "address": "Pingo Doce Braga - Frossos, R. de Cima 58, 4700-151 Frossos",
+    "coords": {
+      "latitude": 41.5649288,
+      "longitude": -8.449379799999999
+    }
+  },
+  {
     "name": "Praia Fluvial de Navarra",
     "type": "Praia Fluvial",
     "placeid": "ChIJg1y_5_f9JA0Roj8grT_RUCs",
@@ -243,7 +243,7 @@
     "name": "Cascata de S. Miguel, Portela do Homem",
     "type": "Atração Turística",
     "placeid": "ChIJ2R3H2Vs9JQ0RZZLU-G_GU48",
-    "subtype": "Cascata com Piscina Natural,1h09m",
+    "subtype": null,
     "cid": "-8118927519000522139",
     "address": "Cascata de S. Miguel, Portela do Homem, N308-1",
     "coords": {

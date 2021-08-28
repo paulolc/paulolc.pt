@@ -1,31 +1,45 @@
 {
-	"Pingo Doce Braga - Frossos": {
-		"name": "Frossos"
-	},
-	"Pingo Doce Vila Verde": {
-		"name": "Vila Verde"
-	},
-	"Minipreço - Amares": {
-		"name": "Amares"
-	},
-	"Praia Fluvial do Barquinho": {
-		"name": "Barquinho"
-	},
-	"Praia Fluvial - Souto - Terras de Bouro": {
-		"name": "Souto"
-	},
-	"Praia Fluvial De Monsul": {
-		"name": "Monsul"
-	},
-	"Praia Fluvial de Barreiros": {
-		"name": "Barreiros"
-	},
-	"Praia Fluvial do Vau": {
-		"name": "Vau"
-	},
 	"Praia da Barragem": {
 		"id": "praia-da-barragem-praia-do-ipanema-ilha-do-geres",
-		"name": "Barragem"
+		"name": "Praia do Ipanema",
+		"aquapolis": {
+			"id": "praia-da-barragem-praia-do-ipanema-ilha-do-geres",
+			"name": "Praia da Barragem – Praia do Ipanema – Ilha do Gerês",
+			"url": "https://aquapolis.com.pt/praia-da-barragem-praia-do-ipanema-ilha-do-geres",
+			"summary": "A praia fluvial da Barragem e a praia fluvial do Ipanema ou a Praia da Ilha do Gerês são praias fluviais na Albufeira da Caniçada no Gerês entre as localidades de Admes e Bairro na freguesia de Vilar da Veiga, concelho de Terras de Bouro junto á N309. A praia fluvial da Barragem/Ipanema é famosa pela sua ilha com as bandeiras de Portugal no meio da albufeira do Rio Cávado por isso também é conhecida pela Ilha do Gerês.",
+			"media_links": [
+				"https://1.bp.blogspot.com/-tiS2QTSFHpg/XyHmBriGuGI/AAAAAAAAp_0/tISBoXit5WQslYxjSSFvgUO5PDm2r4mfgCLcBGAsYHQ/s640/Praia_Fluvial_do_Ipanema%2B%252849%2529.jpg",
+				"https://1.bp.blogspot.com/-4vUcd4tixnY/XyHmCnthtuI/AAAAAAAAp_4/mDSgFEAyUpMQE5SN9ELmOry-pN4Yk4ljwCLcBGAsYHQ/s640/Praia_Fluvial_do_Ipanema%2B%252850%2529.jpg",
+				"https://1.bp.blogspot.com/-m8OpUYO1y6A/XyHmDmRrE6I/AAAAAAAAqAA/XKzh4qXCAoc0oACA0f5k3MFw6-G4GOYOgCLcBGAsYHQ/s640/Praia_Fluvial_do_Ipanema%2B%252851%2529.jpg",
+				"https://1.bp.blogspot.com/-aVRoiZaopIQ/XyHmEJmOj5I/AAAAAAAAqAQ/KGE6rfZSS5o9FL9Mza17XokQI_uqpXOsACLcBGAsYHQ/s640/Praia_Fluvial_do_Ipanema%2B%252852%2529.jpg",
+				"https://1.bp.blogspot.com/-SrmokS5Spjs/XyHmEpBcLYI/AAAAAAAAqAU/s4ftOqeNisIdILul1YhFlRU4UUpX7N0AgCLcBGAsYHQ/s640/Praia_Fluvial_do_Ipanema%2B%252853%2529.jpg",
+				"https://1.bp.blogspot.com/-iodJ6P7-xlg/XyHmLxRPZ4I/AAAAAAAAqAk/GXpz8gHK9PolXXUrcxAGPCMThe3VjbDkQCLcBGAsYHQ/s640/Praia_Fluvial_do_Ipanema%2B%25289%2529.jpg",
+				"https://1.bp.blogspot.com/--Ol7rZrSQp4/XyHlm79JJJI/AAAAAAAAp7g/wp9LdfLC2uUl4bJvGYGC0uX5lwYw5VroACLcBGAsYHQ/s640/Praia_Fluvial_do_Ipanema%2B%252810%2529.jpg",
+				"https://1.bp.blogspot.com/-HpfHiHjeqrM/XyHlmpFckCI/AAAAAAAAp7c/BUxD-RCvtGgqhrd62tmo4AO4BTBHoNbAwCLcBGAsYHQ/s640/Praia_Fluvial_do_Ipanema%2B%252811%2529.jpg",
+				"https://1.bp.blogspot.com/-XxaCO5E2LO4/XyHln66fZ4I/AAAAAAAAp70/w3VGTDxodkEyX8Hutxk_dL3D_QH5gSmlgCLcBGAsYHQ/s640/Praia_Fluvial_do_Ipanema%2B%252813%2529.jpg",
+				"https://1.bp.blogspot.com/-ER0mhNyha-w/XyHloK1n2TI/AAAAAAAAp74/JIFEMLZj7AMulKTQp9sIFE7SxUw2usoeQCLcBGAsYHQ/s640/Praia_Fluvial_do_Ipanema%2B%252814%2529.jpg",
+				"https://1.bp.blogspot.com/-FLJgkCCtWMY/XyHloYhDs5I/AAAAAAAAp78/z4byvF7KflgAMboC9Qo1wofPsNBAwKBFQCLcBGAsYHQ/s640/Praia_Fluvial_do_Ipanema%2B%252815%2529.jpg",
+				"https://1.bp.blogspot.com/-3PweV4djWSM/XyHlrmNBujI/AAAAAAAAp8c/dH0Awq7X62geVNnWMmkq98BeEFeobs2FgCLcBGAsYHQ/s640/Praia_Fluvial_do_Ipanema%2B%252816%2529.jpg",
+				"https://1.bp.blogspot.com/-tUxiwLSJtHQ/XyHlqHXTORI/AAAAAAAAp8I/-mRGUC8RfEgJlc9ayPn4T8sMB2dA7OpxQCLcBGAsYHQ/s640/Praia_Fluvial_do_Ipanema%2B%252817%2529.jpg",
+				"https://1.bp.blogspot.com/-SVzbFIZFtsA/XyHl1mf3u4I/AAAAAAAAp90/A99Z9owA-F8DMPEJyfZj7Vw2JTsj8RumACLcBGAsYHQ/s640/Praia_Fluvial_do_Ipanema%2B%252831%2529.jpg",
+				"https://1.bp.blogspot.com/-lcxip-eDS68/XyHl1zTOUtI/AAAAAAAAp98/GQ-YdHcs3dMGoIkk2eWo2mHOst-R0RRaQCLcBGAsYHQ/s640/Praia_Fluvial_do_Ipanema%2B%252832%2529.jpg",
+				"https://1.bp.blogspot.com/-sYzOAsvZ3fA/XyHl2hQ1umI/AAAAAAAAp-I/N0lXbGPRNH08Z7Q8bD69fBvMVNiBLSOnACLcBGAsYHQ/s640/Praia_Fluvial_do_Ipanema%2B%252833%2529.jpg",
+				"https://1.bp.blogspot.com/-GIknxmG8d4M/XyHl4k5B5II/AAAAAAAAp-Y/b1aiHTSrv1c8x4H57nl_EwIT22rstnSvACLcBGAsYHQ/s640/Praia_Fluvial_do_Ipanema%2B%252835%2529.jpg",
+				"https://1.bp.blogspot.com/-Bpxo0RGQcsI/XyHlsXjZqUI/AAAAAAAAp8o/vuGKb_p2cQ8zqJAxYC6DDctxU-KwyO8FwCLcBGAsYHQ/s640/Praia_Fluvial_do_Ipanema%2B%25282%2529.jpg",
+				"https://1.bp.blogspot.com/-lQKh-FPXJe8/XyHlz88JVwI/AAAAAAAAp9o/719PLnxsCPkFR85hoBNXPnPS_ifj9fjjwCLcBGAsYHQ/s640/Praia_Fluvial_do_Ipanema%2B%25283%2529.jpg",
+				"https://1.bp.blogspot.com/-S4YyGgVGsrg/XyHl8EXp_SI/AAAAAAAAp_A/BCBwweyGO9MJAGnlV8JiIbhwlB-wyU5xwCLcBGAsYHQ/s640/Praia_Fluvial_do_Ipanema%2B%25284%2529.jpg"
+			]			
+		}
+
+	},
+	"Praia Fluvial Quinta do Rio": {
+		"id": "praia-fluvial-quinta-do-rio-parada-de-bouro-vieira-do-minho",
+		"name": "Quinta do Rio",
+		"aquapolis": {
+			"id": "praia-fluvial-quinta-do-rio-parada-de-bouro-vieira-do-minho",
+			"name": "Praia Fluvial Quinta do Rio – Parada de Bouro – Vieira do Minho",
+			"url": "https://aquapolis.com.pt/praia-fluvial-quinta-do-rio-parada-de-bouro-vieira-do-minho"			
+		}
 	},
 	"Bar da Praia fluvial de Verim": {
 		"id": "praia-fluvial-de-verim-povoa-de-lanhoso",
@@ -60,6 +74,7 @@
 			"description": "<img src=\"https://doc-08-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/qt33ffuf9n4d1k4rd9a78mlqek/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5acE-fz3fhjThUHA4Pvv0kzmB36DjC9sBH1wqDwJScKhWKTRtmJ8g9MniXIWp1GUma4rhHVdSkWhWIS3pcbzv6vlX3pwsuB_hywMCm5U5MiXfI354QP_Z2UdscQGeq7JuVsTvQ_O2fdXeBt5mccujinWDJOGSiGqu7u5g40Q5sL_g3Uk1HuR37KS0QK?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>https://aquapolis.com.pt/parque-fluvial-de-felinhos-zona-de-lazer-e-praia-fluvial-amares<br>Parque Fluvial de Felinhos onde se inclui a praia fluvial, parque de Merendas  e zona balnear com vários sítios para tomar banho além de uma zona verdejante envolvente. Parque de Lazer de excelência no distrito de Braga<br><br><img src=\"https://doc-0g-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/b5i7q36nlpp05lv3nuv4s3k6og/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5YgCMIpjj4n0Be9FDfWqt9hhh5rp8ZNpK__OVzvMahLykIyXjPbDH-rm44PidQ70z2gerNuTK4Ld-vqcWEcO_nvhub5G-n6BKlQtGss-qC4lMu5of5V1BTALvLG4OP-Lm365ySpuhW2JTcX7HVDrSjqjnLUpiXeSE2F11QAZ2Qxheba7ep5MAdbIRqA?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-14-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/92bqmg6ck2m0qh8k4qqrfr3ho0/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5ZeoAO-8FlSj21tqWRrxXS1Kyg0ROZekluHgWloLqvmZ64tLRaXe4yq5ff4E15KpVn0Tn6SrQqRLK_lPPDphgi3IbINJWerB5lg6OZSlo5trUprVu15Ud_y5nbNWUVCr1w8aFwDAC4PIOi8_t3MjR6SfEIQZg4ijCPOPbzhAah8etwpcTdYt2OYOgvu?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-08-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/pf7ev1qhngjscf90kgms6ecsg0/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5YoReisEdJU2vxeT349mlioKi9gG9k782E1S7g4WbvW2rexvMd_yPXeC3sg00uLV73rfX7lytJUO2h6BG_4prRceRFv5nWHkTI_-_4gjRBfaXJyjWCVUM1TftHm9yMFzMp6YOUUvpxPWsMMC91Xus_rbjGg6UdHTCWBfY_vC162e5QglAsmw3yAjE2C?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0c-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/jreoncrfn7i7sci7o3odi4dgu0/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5Zl4GjrlX4yQC07-3O-Ojx8l6eto4RgTJWXHUqV1iyx5jQM6zhEs0VaYM7j155V8X2iRUvajLOmeikIRllw8abL9tKeHn0XlbHaUgEY_rkoVciKUpbbNks23SLR0XLlQBKawPyuSsnpuYdcYGwEm3fx-f6WHUoO7KJjVlLEUG6qkm4DR1-BO_PAW8G4?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0g-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/jrmiv8b514li0v9vidmfk0v5q4/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5aZNOlDBYRag_nn960lGvpAQaf0OZBIww_mEl464FthVa3yXBfCEGXjuaRdj-Nr7n_eApk46ybIOGjdBUs3GY-nte-GH8CU1IKKK4cFPXYHtdSInSUsmjygzcCkVPHatWI-UX9jpuVEMRm5vr76zMJ-noRj8gUEghqXAkwoP-k6hLOHpqY-Ms-1hgS3?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0g-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/2f4cgbdikqrara7ntipff4cgjk/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5aMeFDpmTEEiy1cBZouGrLpYxfdPMdDd0MOXJAkS6xNiLa1v33khzDVoUHUVGgertzngSPERFOdqd-1Ohj4xBVxdadB6zEuDBZCK0sorkJowcLxslPaleOZNEapJadEnCIVMws0atjqY0E4LC2SO_9YL2jYF-Y7Lxlx1cfetCyJ5_EnjJ9USNchu16n?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0g-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/apbur5lps0ap2v8eo84r2qlijk/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5Z3tiu3J71__ngp9n2tKZbXQ_cfsxzT4Ky_JjC8M5f6Zy7MHmUrMZ0wN3l1pNkmKg35XzG--FVnwCiURVwbxVExmUqGP0qpNvoWo9tTRQG0s3E6go_1lRsOMeoO1J49eXqZbHpKTwOEzOAgTZBSdYzxFB5yXIL4qEGLZFAku4Ly90qjJdFcwBcg6UK3?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-14-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/q2is820ksqkr3bcm0e9vvvk6ag/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5YIIhD2KRKciRKITriGNlGsZgG5poRf7hzl0KeXIzpY7uuDMIOunsyuqPdxipdA6WB8Zh0ZvZYlympxArLV1menq-_vnmXyOc9BFlocJz-UIk4byIqnevvBKF_-FeJkWK4srZD9zEQA6NzwCMbb-XdrU8uWy7-uZBvphRc9Xsg9Wva6asVtgfT6hsgY?session=0&fife\" height=\"200\" width=\"auto\" />",
 			"coordinates": "-8.4261266,41.6229218,0",
 			"media_links": [
+				"https://doc-0g-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/apbur5lps0ap2v8eo84r2qlijk/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5Z3tiu3J71__ngp9n2tKZbXQ_cfsxzT4Ky_JjC8M5f6Zy7MHmUrMZ0wN3l1pNkmKg35XzG--FVnwCiURVwbxVExmUqGP0qpNvoWo9tTRQG0s3E6go_1lRsOMeoO1J49eXqZbHpKTwOEzOAgTZBSdYzxFB5yXIL4qEGLZFAku4Ly90qjJdFcwBcg6UK3?session=0&fife",
 				"https://doc-08-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/qt33ffuf9n4d1k4rd9a78mlqek/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5acE-fz3fhjThUHA4Pvv0kzmB36DjC9sBH1wqDwJScKhWKTRtmJ8g9MniXIWp1GUma4rhHVdSkWhWIS3pcbzv6vlX3pwsuB_hywMCm5U5MiXfI354QP_Z2UdscQGeq7JuVsTvQ_O2fdXeBt5mccujinWDJOGSiGqu7u5g40Q5sL_g3Uk1HuR37KS0QK?session=0&fife",
 				"https://doc-0g-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/b5i7q36nlpp05lv3nuv4s3k6og/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5YgCMIpjj4n0Be9FDfWqt9hhh5rp8ZNpK__OVzvMahLykIyXjPbDH-rm44PidQ70z2gerNuTK4Ld-vqcWEcO_nvhub5G-n6BKlQtGss-qC4lMu5of5V1BTALvLG4OP-Lm365ySpuhW2JTcX7HVDrSjqjnLUpiXeSE2F11QAZ2Qxheba7ep5MAdbIRqA?session=0&fife",
 				"https://doc-14-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/92bqmg6ck2m0qh8k4qqrfr3ho0/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5ZeoAO-8FlSj21tqWRrxXS1Kyg0ROZekluHgWloLqvmZ64tLRaXe4yq5ff4E15KpVn0Tn6SrQqRLK_lPPDphgi3IbINJWerB5lg6OZSlo5trUprVu15Ud_y5nbNWUVCr1w8aFwDAC4PIOi8_t3MjR6SfEIQZg4ijCPOPbzhAah8etwpcTdYt2OYOgvu?session=0&fife",
@@ -67,7 +82,6 @@
 				"https://doc-0c-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/jreoncrfn7i7sci7o3odi4dgu0/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5Zl4GjrlX4yQC07-3O-Ojx8l6eto4RgTJWXHUqV1iyx5jQM6zhEs0VaYM7j155V8X2iRUvajLOmeikIRllw8abL9tKeHn0XlbHaUgEY_rkoVciKUpbbNks23SLR0XLlQBKawPyuSsnpuYdcYGwEm3fx-f6WHUoO7KJjVlLEUG6qkm4DR1-BO_PAW8G4?session=0&fife",
 				"https://doc-0g-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/jrmiv8b514li0v9vidmfk0v5q4/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5aZNOlDBYRag_nn960lGvpAQaf0OZBIww_mEl464FthVa3yXBfCEGXjuaRdj-Nr7n_eApk46ybIOGjdBUs3GY-nte-GH8CU1IKKK4cFPXYHtdSInSUsmjygzcCkVPHatWI-UX9jpuVEMRm5vr76zMJ-noRj8gUEghqXAkwoP-k6hLOHpqY-Ms-1hgS3?session=0&fife",
 				"https://doc-0g-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/2f4cgbdikqrara7ntipff4cgjk/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5aMeFDpmTEEiy1cBZouGrLpYxfdPMdDd0MOXJAkS6xNiLa1v33khzDVoUHUVGgertzngSPERFOdqd-1Ohj4xBVxdadB6zEuDBZCK0sorkJowcLxslPaleOZNEapJadEnCIVMws0atjqY0E4LC2SO_9YL2jYF-Y7Lxlx1cfetCyJ5_EnjJ9USNchu16n?session=0&fife",
-				"https://doc-0g-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/apbur5lps0ap2v8eo84r2qlijk/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5Z3tiu3J71__ngp9n2tKZbXQ_cfsxzT4Ky_JjC8M5f6Zy7MHmUrMZ0wN3l1pNkmKg35XzG--FVnwCiURVwbxVExmUqGP0qpNvoWo9tTRQG0s3E6go_1lRsOMeoO1J49eXqZbHpKTwOEzOAgTZBSdYzxFB5yXIL4qEGLZFAku4Ly90qjJdFcwBcg6UK3?session=0&fife",
 				"https://doc-14-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/q2is820ksqkr3bcm0e9vvvk6ag/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5YIIhD2KRKciRKITriGNlGsZgG5poRf7hzl0KeXIzpY7uuDMIOunsyuqPdxipdA6WB8Zh0ZvZYlympxArLV1menq-_vnmXyOc9BFlocJz-UIk4byIqnevvBKF_-FeJkWK4srZD9zEQA6NzwCMbb-XdrU8uWy7-uZBvphRc9Xsg9Wva6asVtgfT6hsgY?session=0&fife"
 			]
 		}
@@ -86,10 +100,10 @@
 			"description": "<img src=\"https://doc-10-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/6jtl2qpm3n76sfcrh5ncgndo6s/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5ZWAtzisk5doMYOEd9FsUWP3n-oIBQnoC1aE79hAtV3TrY1YWaYYlym8xel3me3S173LpDPzriyELstLSLV8r8tXEHlVhBuFGwosNu4VhsUMaP8ocqY2UmLyCAsASktQUCxFstxCDoB21ABI0yUTxXiKU3m9QjDJoQyCTv8ZuKHd8dW0B2mVNwtKfpBxg?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>https://aquapolis.com.pt/praia-fluvial-soutelo-vila-verde-braga/<br>Praia fluvial do Mirante em Soutelo, Vila Verde. Uma praia fluvial com restaurante bar o Mirante. Praia fluvial de dois rios<br><br><img src=\"https://doc-00-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/hojjcnsbn6agfdrntvuud0cimk/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5ZeGS-hjbXLPoYZluGuSYHJ_y6aN9rHUxZpytWpAD8y-E2tcqI7NnvBBfuYAkgMEMmRqTTxZPSK_EStiOhpAxPlXgugmU2Z6r1enE_Y3Rg3t-gp8KArfKuyVT1kaFWnAUejPvukNdQ9jc21bN6Tvr5uKK2QTxgD1l-7WEjg8ABx9QrbBA_i-34ogJveGg?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0k-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/1ibjc92e3hdpb6fdhms50u2qps/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5bDuBQRfWZuAVAgKIOmTrWdYBLE-UwXDlZ7qQXgoyABdw1WRg9mLD9dN6kRE-vfbzfyFGRqo3H9MotmYfrSlMCCFSBbelIMD9V6t5QiNrW1evIcrz3jmKCkJufqzqT8xaw_BtRkYUiLGHxUMYmuUi8iUGi2ePe65u298eVa5yVZsxR47UEt-gEex3MXAA?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-04-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/5ano3hjd1g09tcc0rcb4b2a7sg/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5Y-KduF36Bqul-mrIZqkvMHHgt4MeI-ARKEGSSzir8GKIFgTizGbTBGRuvok3WmCKt6BeaFppDQyNZQSduC_jKPqTB1eeWpqEUhpfpXX3sStBHppUAcpKTXpBWhdw-bFH4JNWmBYISXRepckGGLbIycH9nqMu5OE_7QFc1uP50pWYtS9KXlbFxnX7iq7A?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-00-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/gc9p1te3lniborfp0kqd7ftrl0/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5a8mX0QtbgM78cdHJ7aOqeWhiEd1Nro80XU308nW7w9U7B_i3GMoLLAIhAgPJwzI8Zqk2vTVTDKF2zZiW-jmcJ3I-V9NROG4SQygEKSTfgi1pk1cloGCt-KI6LdFprr0-v5HGXxA8eL1yonXUGkwNE94IsBthB_b1M6FK7bnBxZPigDoSP47yMKBVBa-g?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-04-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/gtesldf7409g45sl9od1kdevvc/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5boe9qnMuWA8i-3a6HCqCoyAouo9Xz8q5l-B2QbYSriUJWsf47JTfJZe-yLyg4wJPyre7crZ8Du4vLpeeHNAItAgBkDd-6UlC5bS8r4nQ-61GfCNX2GCdcQAygRawM8wSUYJmfPNIMkDSQvDOg416zTMmbsDi4kLKobmq-HlWgDX_UvDMCkAulaybEr?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-10-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/fa0lt39g21h92214k8pgkp95fs/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5Yn8c4xkD0KxQAIabWhLAGtwe4w09z3Ozkymig7rKhvegY6GLdZaHabp8-OhqnpDIy7v49NnbrJqh0OrSAzfp_XC6SLm7LyveIQNJxV-6oSAEA44fTkSWqYflZEIFSa-HD-rN5qaIDAn89yPZagfeHX1vPGRphhWMGlwtU2Bmu7KbLWEw1EWZBsEckD?session=0&fife\" height=\"200\" width=\"auto\" />",
 			"coordinates": "-8.4332893,41.6060988,0",
 			"media_links": [
+				"https://doc-04-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/5ano3hjd1g09tcc0rcb4b2a7sg/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5Y-KduF36Bqul-mrIZqkvMHHgt4MeI-ARKEGSSzir8GKIFgTizGbTBGRuvok3WmCKt6BeaFppDQyNZQSduC_jKPqTB1eeWpqEUhpfpXX3sStBHppUAcpKTXpBWhdw-bFH4JNWmBYISXRepckGGLbIycH9nqMu5OE_7QFc1uP50pWYtS9KXlbFxnX7iq7A?session=0&fife",
 				"https://doc-10-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/6jtl2qpm3n76sfcrh5ncgndo6s/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5ZWAtzisk5doMYOEd9FsUWP3n-oIBQnoC1aE79hAtV3TrY1YWaYYlym8xel3me3S173LpDPzriyELstLSLV8r8tXEHlVhBuFGwosNu4VhsUMaP8ocqY2UmLyCAsASktQUCxFstxCDoB21ABI0yUTxXiKU3m9QjDJoQyCTv8ZuKHd8dW0B2mVNwtKfpBxg?session=0&fife",
 				"https://doc-00-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/hojjcnsbn6agfdrntvuud0cimk/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5ZeGS-hjbXLPoYZluGuSYHJ_y6aN9rHUxZpytWpAD8y-E2tcqI7NnvBBfuYAkgMEMmRqTTxZPSK_EStiOhpAxPlXgugmU2Z6r1enE_Y3Rg3t-gp8KArfKuyVT1kaFWnAUejPvukNdQ9jc21bN6Tvr5uKK2QTxgD1l-7WEjg8ABx9QrbBA_i-34ogJveGg?session=0&fife",
 				"https://doc-0k-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/1ibjc92e3hdpb6fdhms50u2qps/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5bDuBQRfWZuAVAgKIOmTrWdYBLE-UwXDlZ7qQXgoyABdw1WRg9mLD9dN6kRE-vfbzfyFGRqo3H9MotmYfrSlMCCFSBbelIMD9V6t5QiNrW1evIcrz3jmKCkJufqzqT8xaw_BtRkYUiLGHxUMYmuUi8iUGi2ePe65u298eVa5yVZsxR47UEt-gEex3MXAA?session=0&fife",
-				"https://doc-04-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/5ano3hjd1g09tcc0rcb4b2a7sg/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5Y-KduF36Bqul-mrIZqkvMHHgt4MeI-ARKEGSSzir8GKIFgTizGbTBGRuvok3WmCKt6BeaFppDQyNZQSduC_jKPqTB1eeWpqEUhpfpXX3sStBHppUAcpKTXpBWhdw-bFH4JNWmBYISXRepckGGLbIycH9nqMu5OE_7QFc1uP50pWYtS9KXlbFxnX7iq7A?session=0&fife",
 				"https://doc-00-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/gc9p1te3lniborfp0kqd7ftrl0/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5a8mX0QtbgM78cdHJ7aOqeWhiEd1Nro80XU308nW7w9U7B_i3GMoLLAIhAgPJwzI8Zqk2vTVTDKF2zZiW-jmcJ3I-V9NROG4SQygEKSTfgi1pk1cloGCt-KI6LdFprr0-v5HGXxA8eL1yonXUGkwNE94IsBthB_b1M6FK7bnBxZPigDoSP47yMKBVBa-g?session=0&fife",
 				"https://doc-04-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/gtesldf7409g45sl9od1kdevvc/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5boe9qnMuWA8i-3a6HCqCoyAouo9Xz8q5l-B2QbYSriUJWsf47JTfJZe-yLyg4wJPyre7crZ8Du4vLpeeHNAItAgBkDd-6UlC5bS8r4nQ-61GfCNX2GCdcQAygRawM8wSUYJmfPNIMkDSQvDOg416zTMmbsDi4kLKobmq-HlWgDX_UvDMCkAulaybEr?session=0&fife",
 				"https://doc-10-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/fa0lt39g21h92214k8pgkp95fs/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5Yn8c4xkD0KxQAIabWhLAGtwe4w09z3Ozkymig7rKhvegY6GLdZaHabp8-OhqnpDIy7v49NnbrJqh0OrSAzfp_XC6SLm7LyveIQNJxV-6oSAEA44fTkSWqYflZEIFSa-HD-rN5qaIDAn89yPZagfeHX1vPGRphhWMGlwtU2Bmu7KbLWEw1EWZBsEckD?session=0&fife"
@@ -419,11 +433,39 @@
 	},
 	"Saber ao Borralho": {},
 	"Sete Lagoas": {},
-	"Águas quentes de Lobios": {},
+	"Águas quentes de Lobios": {
+		"name":"Torneros"
+	},
 	"Cascata de Pincães": {},
-	"Cascata de S. Miguel": {},
+	"Cascata de S. Miguel, Portela do Homem": {
+		"name": "Cascata em Portela do Homem"
+	},
 	"Cascatas de Fecha de Barjas": {},
 	"Ilha do Ermal": {},
 	"Miradouro das Rocas": {},
-	"Poço Azul": {}
+	"Poço Azul": {},
+	"Pingo Doce Braga - Frossos": {
+		"name": " "
+	},
+	"Pingo Doce Vila Verde": {
+		"name": " "
+	},
+	"Minipreço - Amares": {
+		"name": " "
+	},
+	"Praia Fluvial do Barquinho": {
+		"name": "Barquinho"
+	},
+	"Praia Fluvial - Souto - Terras de Bouro": {
+		"name": "Souto"
+	},
+	"Praia Fluvial De Monsul": {
+		"name": "Monsul"
+	},
+	"Praia Fluvial de Barreiros": {
+		"name": "Barreiros"
+	},
+	"Praia Fluvial do Vau": {
+		"name": "Vau"
+	}
 }

@@ -1,21 +1,9 @@
 [
   {
-    "name": "Minipreço - Amares",
-    "type": "Hipermercado",
-    "placeid": "ChIJtaZJJ2QCJQ0RupcQ8i7bZ8U",
-    "subtype": "Supermercado,6m",
-    "cid": "-4222165130960398406",
-    "address": "Minipreço - Amares, R. Nossa Sra. do Ó 22, 4720-393 Ferreiros",
-    "coords": {
-      "latitude": 41.6303603,
-      "longitude": -8.3598745
-    }
-  },
-  {
     "name": "Pingo Doce Vila Verde",
     "type": "Hipermercado",
     "placeid": "ChIJ0RJn3a4BJQ0Rr0IXKXieioE",
-    "subtype": "Supermercado,15m",
+    "subtype": "Pingo Doce,15m",
     "cid": "-9112296657108122961",
     "address": "Pingo Doce Vila Verde, Av. Mesquita Gavião 206, 4730-010 Vila Verde",
     "coords": {
@@ -27,12 +15,216 @@
     "name": "Pingo Doce Braga - Frossos",
     "type": "Hipermercado",
     "placeid": "ChIJZ6QcnWT_JA0RkgbQvd0FKhc",
-    "subtype": "Supermercado,23m",
+    "subtype": "Pingo Doce,23m",
     "cid": "1669153061824628370",
     "address": "Pingo Doce Braga - Frossos, R. de Cima 58, 4700-151 Frossos",
     "coords": {
       "latitude": 41.5649288,
       "longitude": -8.449379799999999
+    }
+  },
+  {
+    "name": "Minipreço - Amares",
+    "type": "Hipermercado",
+    "placeid": "ChIJtaZJJ2QCJQ0RupcQ8i7bZ8U",
+    "subtype": "Minipreço,6m",
+    "cid": "-4222165130960398406",
+    "address": "Minipreço - Amares, R. Nossa Sra. do Ó 22, 4720-393 Ferreiros",
+    "coords": {
+      "latitude": 41.6303603,
+      "longitude": -8.3598745
+    }
+  },
+  {
+    "name": "Praia Fluvial Quinta do Rio",
+    "type": "Atração Turística",
+    "placeid": "ChIJKbap_VEdJQ0R5VZjoO7KpmY",
+    "subtype": "Praia Fluvial boa para saltos,0m",
+    "cid": "7396822564244510437",
+    "address": "Praia Fluvial Quinta do Rio, EM595-1",
+    "coords": {
+      "latitude": 41.6539578,
+      "longitude": -8.2504118
+    }
+  },
+  {
+    "name": "Praia Fluvial De Monsul",
+    "type": "Bar",
+    "placeid": "ChIJszfo5tgDJQ0R6kefx3bEbDU",
+    "subtype": "Praia Fluvial com Bar,15m",
+    "cid": "3849667795929221098",
+    "address": "Praia Fluvial De Monsul, Monsul",
+    "coords": {
+      "latitude": 41.6265784,
+      "longitude": -8.3186369
+    }
+  },
+  {
+    "name": "Bar da Praia fluvial de Verim",
+    "type": "Bar",
+    "placeid": "ChIJd1rB1RcDJQ0RV0EN6HMtXws",
+    "subtype": "Praia Fluvial com Bar,21m",
+    "cid": "819423633042391383",
+    "address": "Bar da Praia fluvial de Verim",
+    "coords": {
+      "latitude": 41.6445207,
+      "longitude": -8.3131065
+    }
+  },
+  {
+    "name": "Praia Fluvial do Barquinho",
+    "type": "Praia Fluvial",
+    "placeid": "ChIJGU34cQcdJQ0RjpqOB6oIAHI",
+    "subtype": "Praia Fluvial Selvagem,19m",
+    "cid": "8214575246688033422",
+    "address": "Praia Fluvial do Barquinho",
+    "coords": {
+      "latitude": 41.6551591,
+      "longitude": -8.2660736
+    }
+  },
+  {
+    "name": "Praia da Barragem",
+    "type": "Praia Fluvial",
+    "placeid": "ChIJbQhInyEfJQ0RLarBt3MlVZg",
+    "subtype": "Praia à Beira Rio,38m",
+    "cid": "-7470023227989710291",
+    "address": "Praia da Barragem, Rio Cávado",
+    "coords": {
+      "latitude": 41.6906592,
+      "longitude": -8.1733826
+    }
+  },
+  {
+    "name": "Cascatas de Fecha de Barjas",
+    "type": "Área de caminhada",
+    "placeid": "ChIJ9625do0hJQ0Rv3iRT9Iqe9U",
+    "subtype": "Cascata com Piscina Natural,1h01m",
+    "cid": "-3063808038729058113",
+    "address": "Cascatas de Fecha de Barjas, Vilar da Veiga",
+    "coords": {
+      "latitude": 41.7037505,
+      "longitude": -8.1095721
+    }
+  },
+  {
+    "name": "Praia Fluvial da Barca",
+    "type": "Praia",
+    "placeid": "ChIJc2SX0eUeJQ0RunbMBQWb8fw",
+    "subtype": "Praia à Beira Rio,35m",
+    "cid": "-220224460890016070",
+    "address": "Praia Fluvial da Barca, R. 1 36, 4845-013 Rio Caldo",
+    "coords": {
+      "latitude": 41.6820871,
+      "longitude": -8.1861747
+    }
+  },
+  {
+    "name": "Poço Azul",
+    "type": "Lago para natação",
+    "placeid": "ChIJMc1b4ekYJQ0R5JENhYht8xM",
+    "subtype": "Cascata com Piscina Natural,1h21m",
+    "cid": "1437613139176559076",
+    "address": "Poço Azul",
+    "coords": {
+      "latitude": 41.733496099999996,
+      "longitude": -8.1069189
+    }
+  },
+  {
+    "name": "Sete Lagoas",
+    "type": "Atração Turística",
+    "placeid": "ChIJbzv6Xy4lJQ0RuRRRwvmpF_M",
+    "subtype": "Piscina Natural,1h34m",
+    "cid": "-930087907856673607",
+    "address": "Sete Lagoas, Unnamed Road, 5470",
+    "coords": {
+      "latitude": 41.759232,
+      "longitude": -8.0273688
+    }
+  },
+  {
+    "name": "Cascata de Pincães",
+    "type": "Praia Fluvial",
+    "placeid": "ChIJ3WaUZFghJQ0RmROWRzXJi3g",
+    "subtype": "Cascata com Piscina Natural,1h04m",
+    "cid": "8686257536985600921",
+    "address": "Cascata de Pincães, Cabril",
+    "coords": {
+      "latitude": 41.7155845,
+      "longitude": -8.0596601
+    }
+  },
+  {
+    "name": "Praia Fluvial - Souto - Terras de Bouro",
+    "type": "Praia Fluvial",
+    "placeid": "ChIJKVypviUFJQ0RdTKJwak-m7U",
+    "subtype": "Praia Fluvial Selvagem,19m",
+    "cid": "-5360622032637054347",
+    "address": "Praia Fluvial - Souto - Terras de Bouro, Terras de Bouro",
+    "coords": {
+      "latitude": 41.7011476,
+      "longitude": -8.3399827
+    }
+  },
+  {
+    "name": "Praia fluvial de Vilar",
+    "type": "Praia Fluvial",
+    "placeid": "ChIJ1wLfgBgbJQ0R_eTy-NJW_1w",
+    "subtype": "Praia Fluvial Selvagem,32m,Observação importante! O endereço fornecido pelo Google Maps está correto, mas o acesso que o Google Maps diz é da outra margem do Rio Homem, por isso se for pelo Google Maps não vai encontrar a Praia Fluvial. Siga as direcções que disse acima!",
+    "cid": "6701170234670376189",
+    "address": "Praia fluvial de Vilar, Vilar",
+    "coords": {
+      "latitude": 41.7324148,
+      "longitude": -8.286678
+    }
+  },
+  {
+    "name": "Praia Fluvial do Rio Homem",
+    "type": "Praia Fluvial",
+    "placeid": "ChIJf34uTsgEJQ0R6p-cmtbUiz8",
+    "subtype": "Zona de Lazer à Beira Rio,26m",
+    "cid": "4578987464334286826",
+    "address": "Praia Fluvial do Rio Homem, Rio Homem,, Terras de Bouro",
+    "coords": {
+      "latitude": 41.720524999999995,
+      "longitude": -8.3125925
+    }
+  },
+  {
+    "name": "Praia Fluvial do Cavadinho",
+    "type": "Praia Fluvial",
+    "placeid": "ChIJESgOaX8CJQ0RK9PU8bltzSk",
+    "subtype": "Praia Fluvial,13m",
+    "cid": "3012184371174363947",
+    "address": "Praia Fluvial do Cavadinho, 4710-646 Crespos",
+    "coords": {
+      "latitude": 41.616607099999996,
+      "longitude": -8.3565398
+    }
+  },
+  {
+    "name": "Praia Fluvial de Merelim (São Paio)",
+    "type": "Praia Fluvial",
+    "placeid": "ChIJVynDnun_JA0RZilmZKyDAUM",
+    "subtype": "Praia Fluvial com Bar,18m",
+    "cid": "4828285051959912806",
+    "address": "Praia Fluvial de Merelim (São Paio), R. João Dias Soares 36, 4700-838 Merelim (São Paio)",
+    "coords": {
+      "latitude": 41.5937572,
+      "longitude": -8.465520399999999
+    }
+  },
+  {
+    "name": "Praia Fluvial do Faial",
+    "type": "Praia Fluvial",
+    "placeid": "ChIJLVv0R8P_JA0RnO5wLTDxyHk",
+    "subtype": "Praia Fluvial com Bar,19m",
+    "cid": "8775529063154511516",
+    "address": "Praia Fluvial do Faial, Av. do Cávado, 4730-460 Vila de Prado",
+    "coords": {
+      "latitude": 41.5978479,
+      "longitude": -8.4581625
     }
   },
   {
@@ -261,186 +453,6 @@
     "coords": {
       "latitude": 41.609174499999995,
       "longitude": -8.407783499999999
-    }
-  },
-  {
-    "name": "Praia Fluvial De Monsul",
-    "type": "Bar",
-    "placeid": "ChIJszfo5tgDJQ0R6kefx3bEbDU",
-    "subtype": null,
-    "cid": "3849667795929221098",
-    "address": "Praia Fluvial De Monsul, Monsul",
-    "coords": {
-      "latitude": 41.6265784,
-      "longitude": -8.3186369
-    }
-  },
-  {
-    "name": "Bar da Praia fluvial de Verim",
-    "type": "Bar",
-    "placeid": "ChIJd1rB1RcDJQ0RV0EN6HMtXws",
-    "subtype": null,
-    "cid": "819423633042391383",
-    "address": "Bar da Praia fluvial de Verim",
-    "coords": {
-      "latitude": 41.6445207,
-      "longitude": -8.3131065
-    }
-  },
-  {
-    "name": "Praia Fluvial do Barquinho",
-    "type": "Praia Fluvial",
-    "placeid": "ChIJGU34cQcdJQ0RjpqOB6oIAHI",
-    "subtype": null,
-    "cid": "8214575246688033422",
-    "address": "Praia Fluvial do Barquinho",
-    "coords": {
-      "latitude": 41.6551591,
-      "longitude": -8.2660736
-    }
-  },
-  {
-    "name": "Praia da Barragem",
-    "type": "Praia Fluvial",
-    "placeid": "ChIJbQhInyEfJQ0RLarBt3MlVZg",
-    "subtype": "Praia à Beira Rio",
-    "cid": "-7470023227989710291",
-    "address": "Praia da Barragem, Rio Cávado",
-    "coords": {
-      "latitude": 41.6906592,
-      "longitude": -8.1733826
-    }
-  },
-  {
-    "name": "Cascatas de Fecha de Barjas",
-    "type": "Área de caminhada",
-    "placeid": "ChIJ9625do0hJQ0Rv3iRT9Iqe9U",
-    "subtype": null,
-    "cid": "-3063808038729058113",
-    "address": "Cascatas de Fecha de Barjas, Vilar da Veiga",
-    "coords": {
-      "latitude": 41.7037505,
-      "longitude": -8.1095721
-    }
-  },
-  {
-    "name": "Praia Fluvial da Barca",
-    "type": "Praia",
-    "placeid": "ChIJc2SX0eUeJQ0RunbMBQWb8fw",
-    "subtype": "Praia à Beira Rio",
-    "cid": "-220224460890016070",
-    "address": "Praia Fluvial da Barca, R. 1 36, 4845-013 Rio Caldo",
-    "coords": {
-      "latitude": 41.6820871,
-      "longitude": -8.1861747
-    }
-  },
-  {
-    "name": "Poço Azul",
-    "type": "Lago para natação",
-    "placeid": "ChIJMc1b4ekYJQ0R5JENhYht8xM",
-    "subtype": null,
-    "cid": "1437613139176559076",
-    "address": "Poço Azul",
-    "coords": {
-      "latitude": 41.733496099999996,
-      "longitude": -8.1069189
-    }
-  },
-  {
-    "name": "Sete Lagoas",
-    "type": "Atração Turística",
-    "placeid": "ChIJbzv6Xy4lJQ0RuRRRwvmpF_M",
-    "subtype": "Piscina Natural",
-    "cid": "-930087907856673607",
-    "address": "Sete Lagoas, Unnamed Road, 5470",
-    "coords": {
-      "latitude": 41.759232,
-      "longitude": -8.0273688
-    }
-  },
-  {
-    "name": "Cascata de Pincães",
-    "type": "Praia Fluvial",
-    "placeid": "ChIJ3WaUZFghJQ0RmROWRzXJi3g",
-    "subtype": null,
-    "cid": "8686257536985600921",
-    "address": "Cascata de Pincães, Cabril",
-    "coords": {
-      "latitude": 41.7155845,
-      "longitude": -8.0596601
-    }
-  },
-  {
-    "name": "Praia Fluvial - Souto - Terras de Bouro",
-    "type": "Praia Fluvial",
-    "placeid": "ChIJKVypviUFJQ0RdTKJwak-m7U",
-    "subtype": null,
-    "cid": "-5360622032637054347",
-    "address": "Praia Fluvial - Souto - Terras de Bouro, Terras de Bouro",
-    "coords": {
-      "latitude": 41.7011476,
-      "longitude": -8.3399827
-    }
-  },
-  {
-    "name": "Praia fluvial de Vilar",
-    "type": "Praia Fluvial",
-    "placeid": "ChIJ1wLfgBgbJQ0R_eTy-NJW_1w",
-    "subtype": null,
-    "cid": "6701170234670376189",
-    "address": "Praia fluvial de Vilar, Vilar",
-    "coords": {
-      "latitude": 41.7324148,
-      "longitude": -8.286678
-    }
-  },
-  {
-    "name": "Praia Fluvial do Rio Homem",
-    "type": "Praia Fluvial",
-    "placeid": "ChIJf34uTsgEJQ0R6p-cmtbUiz8",
-    "subtype": null,
-    "cid": "4578987464334286826",
-    "address": "Praia Fluvial do Rio Homem, Rio Homem,, Terras de Bouro",
-    "coords": {
-      "latitude": 41.720524999999995,
-      "longitude": -8.3125925
-    }
-  },
-  {
-    "name": "Praia Fluvial de Merelim (São Paio)",
-    "type": "Praia Fluvial",
-    "placeid": "ChIJVynDnun_JA0RZilmZKyDAUM",
-    "subtype": null,
-    "cid": "4828285051959912806",
-    "address": "Praia Fluvial de Merelim (São Paio), R. João Dias Soares 36, 4700-838 Merelim (São Paio)",
-    "coords": {
-      "latitude": 41.5937572,
-      "longitude": -8.465520399999999
-    }
-  },
-  {
-    "name": "Praia Fluvial do Faial",
-    "type": "Praia Fluvial",
-    "placeid": "ChIJLVv0R8P_JA0RnO5wLTDxyHk",
-    "subtype": null,
-    "cid": "8775529063154511516",
-    "address": "Praia Fluvial do Faial, Av. do Cávado, 4730-460 Vila de Prado",
-    "coords": {
-      "latitude": 41.5978479,
-      "longitude": -8.4581625
-    }
-  },
-  {
-    "name": "Praia Fluvial do Cavadinho",
-    "type": "Praia Fluvial",
-    "placeid": "ChIJESgOaX8CJQ0RK9PU8bltzSk",
-    "subtype": null,
-    "cid": "3012184371174363947",
-    "address": "Praia Fluvial do Cavadinho, 4710-646 Crespos",
-    "coords": {
-      "latitude": 41.616607099999996,
-      "longitude": -8.3565398
     }
   },
   {

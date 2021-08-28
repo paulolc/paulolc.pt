@@ -2,21 +2,49 @@
 <html>
   <head>
     <meta charset="UTF-8">
+
     <title>Pontos de Interesse - Férias Gerês 2021</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
     <script src="./index.js"></script>
   </head>
   <body>
-    <div id="map"></div>
 
-    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-    <script
-    
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAssMr-5708aDyRKkmcOA6MkxhvKIfIjHA&callback=initMap&libraries=&v=weekly"
-    
-    <!--src="https://maps.googleapis.com/maps/api/js?key=${env:GOOGLE_MAPS_API_KEY}&callback=initMap&libraries=&v=weekly"-->
+    <div class="wrapper left-panel-closed" >
+
+
+
+
+      <div class="top">
+          <div class="left-panel-holder">
+
+              <div id="sidepanel" class="left-panel">
+
+                </div>
+          </div>
+          <div class="map-holder">
+              <div id="map"></div>
+          </div>
+      </div>
+  </div>
+
+
+
+    <script    
+      src="https://maps.googleapis.com/maps/api/js?key=${env:GOOGLE_MAPS_API_KEY}&callback=initMap&libraries=&v=weekly">
       async
     </script>
-  </body>
+
+
+</body>
 </html>
+
+
