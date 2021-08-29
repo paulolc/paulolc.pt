@@ -39,7 +39,7 @@
     "name": "Praia Fluvial Quinta do Rio",
     "type": "Atração Turística",
     "placeid": "ChIJKbap_VEdJQ0R5VZjoO7KpmY",
-    "subtype": "Praia Fluvial boa para saltos,0m",
+    "subtype": "Praia Fluvial boa para saltos,29m",
     "cid": "7396822564244510437",
     "address": "Praia Fluvial Quinta do Rio, EM595-1",
     "coords": {
@@ -231,7 +231,7 @@
     "name": "Praia Fluvial de Navarra",
     "type": "Praia Fluvial",
     "placeid": "ChIJg1y_5_f9JA0Roj8grT_RUCs",
-    "subtype": "Praia Fluvial Selvagem,18m",
+    "subtype": "Praia Fluvial,18m",
     "cid": "3121224613185470370",
     "address": "Praia Fluvial de Navarra, CM1345, Navarra, 4980-020",
     "coords": {

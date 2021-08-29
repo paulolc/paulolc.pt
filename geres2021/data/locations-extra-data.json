@@ -34,11 +34,61 @@
 	},
 	"Praia Fluvial Quinta do Rio": {
 		"id": "praia-fluvial-quinta-do-rio-parada-de-bouro-vieira-do-minho",
-		"name": "Quinta do Rio",
+		"name": "Quinta do Rio",		
 		"aquapolis": {
 			"id": "praia-fluvial-quinta-do-rio-parada-de-bouro-vieira-do-minho",
 			"name": "Praia Fluvial Quinta do Rio – Parada de Bouro – Vieira do Minho",
-			"url": "https://aquapolis.com.pt/praia-fluvial-quinta-do-rio-parada-de-bouro-vieira-do-minho"			
+			"url": "https://aquapolis.com.pt/praia-fluvial-quinta-do-rio-parada-de-bouro-vieira-do-minho",
+			"summary": "<p>A praia fluvial da Quinta do Rio, localizada no Rio Cávado logo abaixo da Barragem da Caniçada entre os concelhos de Vieira do Minho e Amares na freguesia de Parada de Bouro na Serra do Gerês. Ao lado do Alojamento de turismo rural Quinta do Rio Gerês.</p><span>Uma zona fluvial ideal para dar saltos para a água com os devidos cuidados pois tem zonas fundas e pedras altas ideias para saltos para a água. Também tem um zona de areal com sombra para relaxar em frente ás águas cristalinas e envolvente em natureza.</p><span>Com água a cerca de 16º, 17º de verão com areia branca de rio, água cristalina, peixes na água que se podem ver bem e vegetação (principalmente mimosas) maravilhosa ao redor. Também a ponte alta embeleza mais um pouco o local. Uma zona muito procurada por jovens aventureiros.</p><span>Se tiver uma autocaravana até pode estacionar ali ao lado da praia fluvial e aproveitar a natureza.</p><span>Ali ao lado pode comer no restaurante Quinta das Dornas tel 253 624 547 e alojamento na Quinta do Rio Gerês tel 253 378 075</p>",
+			"media_links": [
+				"https://aquapolis.com.pt/wp-content/uploads/2020/08/Praia_fluvial_Quinta-do-Rio.jpg",
+				"https://1.bp.blogspot.com/-zRaHi8wAnsU/XyHkA58_TGI/AAAAAAAAp20/fVIWcuLaXp8bJyekXNFGBqSGdiWL5uUvQCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252839%2529.jpg",
+				"https://1.bp.blogspot.com/-eSptxhbqkgM/XyHj-RCI3YI/AAAAAAAAp2c/NZPUKWbK9xsvXyUlURwAT70Fgu9SZfcMACLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252833%2529.jpg",
+				"https://1.bp.blogspot.com/-iCXHPdnEcSI/XyHkG70oD6I/AAAAAAAAp3g/5m98RM4hpXsfuegsyOk0TsIAl7f3FB7mACLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252849%2529.jpg",
+				"https://1.bp.blogspot.com/--5f0dS5A1nw/XyHjze8lJHI/AAAAAAAAp04/UXg9UWITYnUazwsBbVUlV4LOSR7iTqsywCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252810%2529.jpg",
+				"https://1.bp.blogspot.com/-hSEEdp75gYo/XyHkHZurTYI/AAAAAAAAp3o/1GowQHVVHNYvOEmuK1rQZi7uPMZHm6s0QCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252850%2529.jpg",
+				"https://1.bp.blogspot.com/-bCBGhykCoy8/XyHkH1BVI8I/AAAAAAAAp3s/SjfD_6vJaloB0E5xtB9C5udYunJ-tnluACLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252851%2529.jpg",
+				"https://1.bp.blogspot.com/-pXRmRAhlJGI/XyHjz5lYRdI/AAAAAAAAp08/Z1EzKZeYYcEe-NLAdl4Eu5zirF7e_hKNACLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%25281%2529.jpg",
+				"https://1.bp.blogspot.com/-SkBtG62-2Ng/XyHj3nNukFI/AAAAAAAAp1g/KNJtzS6hnPMqSI5nMMkYLPASHVOnGs1ywCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%25282%2529.jpg",
+				"https://1.bp.blogspot.com/-GsclliV3rLk/XyHj9DdFrkI/AAAAAAAAp2Q/z_NJPEiOvDgx7XXJFF25BnQSwpjWjkHLQCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%25283%2529.jpg",
+				"https://1.bp.blogspot.com/-o8NIsAGichQ/XyHkBaPEZCI/AAAAAAAAp24/GWhUHJpa_Acpj97T-7PIuDqdJPh5Qzn7gCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%25284%2529.jpg",
+				"https://1.bp.blogspot.com/-wPOHeY0JTeU/XyHkHCTt1TI/AAAAAAAAp3k/rlgDNqSKRZQi8cSb69_1WqPjHDJwIQABwCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%25285%2529.jpg",
+				"https://1.bp.blogspot.com/-WcvsPArWbfk/XyHkJYttnfI/AAAAAAAAp34/-7lV6tcvib89t4ALpyqVnWmCkTpCCIPGQCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%25286%2529.jpg",
+				"https://1.bp.blogspot.com/-jaDFd6WLCUs/XyHkKAprO-I/AAAAAAAAp38/fxmIxihrtcch58MjEJRVAo9lkvo0kH00QCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%25287%2529.jpg",
+				"https://1.bp.blogspot.com/-m4tctB4hhus/XyHkKg59KyI/AAAAAAAAp4A/aFf4dD6aD1g_OBkebB2SqUQ2xVI98XfcgCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%25288%2529.jpg",
+				"https://1.bp.blogspot.com/-6a86gXpfou0/XyHkLJ8QJfI/AAAAAAAAp4E/OqELvjU7YP4OCljp4PRGGSlo8nJ6snkCQCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%25289%2529.jpg",
+				"https://1.bp.blogspot.com/-JTwz1ZKWOc4/XyHj0eGkmSI/AAAAAAAAp1A/BVwWtLcwXMMOa9oAIgFNYsX_dhj0HBY0ACLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252812%2529.jpg",
+				"https://1.bp.blogspot.com/-vvTV5NZ1_YA/XyHj0YYQobI/AAAAAAAAp1E/cByIusEgQOkp5sJ07HNDiwA4EEosPRGdwCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252813%2529.jpg",
+				"https://1.bp.blogspot.com/-gdgUahKx6qY/XyHj19XP6_I/AAAAAAAAp1Q/NHYPacgK8Coovb79b1xAuH6IfCh66lflwCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252816%2529.jpg",
+				"https://1.bp.blogspot.com/-AcAZLiMh0Zs/XyHj262SjjI/AAAAAAAAp1Y/dPn3xT0oQXYR_ZX4kORnvaz7tUiswMjeQCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252818%2529.jpg",
+				"https://1.bp.blogspot.com/-y3QpCJcWlZk/XyHj6yr_INI/AAAAAAAAp18/rl-YP5DjF2YA-Ja7YIEor0KmrqiIYcY0ACLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252826%2529.jpg",
+				"https://1.bp.blogspot.com/-5iWrDu6fkJs/XyHj7LByTXI/AAAAAAAAp2A/gQr38dWa0nI8fzftjqrBw0CINn1rfGJOgCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252827%2529.jpg",
+				"https://1.bp.blogspot.com/-hcXSJyEDTjk/XyHj7j6-3-I/AAAAAAAAp2E/ESdZD_QSzPQk-2rre2gKRv-yG1_Ln0mMwCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252828%2529.jpg",
+				"https://1.bp.blogspot.com/-yMt88xDFPc4/XyHj8usDxhI/AAAAAAAAp2I/7tqgq8Rh8L0Fk6vDUVboU7Br9IHysof3ACLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252829%2529.jpg",
+				"https://1.bp.blogspot.com/-SZcs2HfrUYs/XyHj8_LFzhI/AAAAAAAAp2M/RiiZQsq-qTMyo6pB5Uwx11AHIsazgw_IwCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252830%2529.jpg",
+				"https://1.bp.blogspot.com/-4LbkMq3xeDM/XyHj9Z0KJNI/AAAAAAAAp2U/3nLP1POEhLMqP9TSlrosHqDFeeRXfD-TQCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252831%2529.jpg",
+				"https://1.bp.blogspot.com/-Yr0n-p_NDz4/XyHj9kBfAlI/AAAAAAAAp2Y/nBnfEnod6KkD7AZ0GZhfK7rGVzJBjvc5QCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252832%2529.jpg",
+				"https://1.bp.blogspot.com/-ukerpITNB8c/XyHj-gteUXI/AAAAAAAAp2k/0yHdrLRih8U2QhcrktCqF5HO4xP86JZwQCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252834%2529.jpg",
+				"https://1.bp.blogspot.com/-Mo2qyLdhd1M/XyHj-gduVII/AAAAAAAAp2g/RhXtWOiVmVA9GODLJpK2TIVeiSMIsntJACLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252835%2529.jpg",
+				"https://1.bp.blogspot.com/-TV96xNKggP0/XyHj_PsN_UI/AAAAAAAAp2o/obyQqDwq7qkHQOdSigSyA76zWsZ2W349ACLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252836%2529.jpg",
+				"https://1.bp.blogspot.com/-JFgrJhVxjFQ/XyHkBo-58EI/AAAAAAAAp28/ATDlCB8g9U4QEAXNbIuV2DpT4g5x82p8gCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252840%2529.jpg",
+				"https://1.bp.blogspot.com/-sF22pfVTxZI/XyHj2ATE7oI/AAAAAAAAp1U/wPgw_m488ygELGYUZjqnsFKNs6HO_1XXACLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252817%2529.jpg",
+				"https://1.bp.blogspot.com/-QCXlYi3r-Fk/XyHj3yohmEI/AAAAAAAAp1k/J12uOEyGPpEsiu-DIKpmeCJsaFKovJ_IACLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252820%2529.jpg",
+				"https://1.bp.blogspot.com/-iHu5-3xk8Ts/XyHj4el-kWI/AAAAAAAAp1o/-1s_VFJ_Jd82kOlLfx-xSZDWl18hRr6fgCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252821%2529.jpg",
+				"https://1.bp.blogspot.com/-mMcRR1GQuss/XyHj5Cn0h3I/AAAAAAAAp1s/NC0DbOQIBRc9tZV1t9k6dYFf2PE-jw7rgCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252822%2529.jpg",
+				"https://1.bp.blogspot.com/-QDWqSRQ6IEY/XyHj5VbyL-I/AAAAAAAAp1w/HSw7ZqVJ5AUwp_u0vRpuYwHEwOolQtwmQCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252823%2529.jpg",
+				"https://1.bp.blogspot.com/-u6E1nVXlWtg/XyHj5h3VkBI/AAAAAAAAp10/RJZ3AifXM5kL8XRABroqNUU-QKvssOg0wCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252824%2529.jpg",
+				"https://1.bp.blogspot.com/-THtlWO0Wuk0/XyHj6ig6t3I/AAAAAAAAp14/jjPv2f6pXC8QHdzCS1orZWRHohPwTR4TgCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252825%2529.jpg",
+				"https://1.bp.blogspot.com/-AVGiMwr8aBM/XyHj00TuawI/AAAAAAAAp1I/GIE-Ycv8BDsn4WQnsKBliRj1TYuHuPmzwCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252814%2529.jpg",
+				"https://1.bp.blogspot.com/-L0dmM1cGlW8/XyHkB_0L-AI/AAAAAAAAp3A/nb1idwOWEv4AD3O2-_A9bev6_fZ7zAXUACLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252841%2529.jpg",
+				"https://1.bp.blogspot.com/-byjdaPhbfaY/XyHkDfIUl-I/AAAAAAAAp3E/PBNGYFIvOR4vkgaOG-2tpF0uEWcPfj4DACLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252842%2529.jpg",
+				"https://1.bp.blogspot.com/-3rARfmWbkfw/XyHkDk8xpXI/AAAAAAAAp3M/71YfqEEa4Sod_KGCpTbPMb3NqP7W_nhtACLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252843%2529.jpg",
+				"https://1.bp.blogspot.com/-SM743nT-gFY/XyHkDj4pbXI/AAAAAAAAp3I/xkuvZeBno7clhODbyWQ4J_hVHKqPagBUwCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252844%2529.jpg",
+				"https://1.bp.blogspot.com/-wlT9beWKuTI/XyHkEaT2DuI/AAAAAAAAp3Q/29nzgtmCaW4xA1mFrnYpHnhWUHfaoCDxwCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252845%2529.jpg",
+				"https://1.bp.blogspot.com/-M9Rkt5vfAzI/XyHkFuzXCwI/AAAAAAAAp3U/osqVv7nftl8DkTV-S3XJ6-kZp9EmM5HjwCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252846%2529.jpg",
+				"https://1.bp.blogspot.com/-4HWsCGDrtg8/XyHkF61qkqI/AAAAAAAAp3Y/N3oC6cTs7Ok-bBv4ReSs5juJ-EG_p0qBwCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252847%2529.jpg",
+				"https://1.bp.blogspot.com/-HqlIFocVGWg/XyHkJIl99pI/AAAAAAAAp3w/F7Cpmp7zqeE-ZlTi_FMvm04vc6MpHNpwQCLcBGAsYHQ/s640/Praia_fluvial_das_Dornas%2B%252852%2529.jpg"				
+			]
 		}
 	},
 	"Bar da Praia fluvial de Verim": {
@@ -210,14 +260,14 @@
 			"coordinates": "-8.43057,41.60551,0",
 			"media_links": [
 				"https://doc-10-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/0toaqj0hem2t2532p97m56c6r8/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5ZWJVonTn-omvjSfP934rY6dQEIj-Ytg8B-uZv9hisuO2S_J-SzicSoLjX_mgjhtEHJuNbZwgqqpUNMikQ-NVD94J38XT_sqG_v1NRMqpipkTnjy_K5wud8aUZ8iBrdnUdD6Q7P3lpvfkGKb3RPwdO8Xsr7pIa0-MnWojvShvmbdjfW0NyhPoWctBbojg?session=0&fife",
-				"https://doc-0s-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/10sqjb5q49hvc2g1jjsntlh220/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5YQbAGUvcK7tzU4zWz2ODT20MVOT52wVBpUfdbTdNU9G_LFegs3Twkj3DBtyFMJHftPWTvL8QF12NmcWIOJT4XDME9w51Rgmw9bwNIG760VfshdnbED4BwQFzJraXeA9bn0DMxBZpeWLknCa51ha7_uU6mtzUQ4U3aNvHM-izQKFZqukQNCs2y3WBufVg?session=0&fife",
 				"https://doc-10-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/3d9d88kn8v7rpuptajln9mrvrs/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5b0T8LtVsX1JzERJTZuItdGIHzkGTXCJJHck89XYxDoZ2q-WyCezeyVc_cjmU8qU9qi6L1owHomtD0zEy-xl-_grqA-k0VWXiMSE1h5Rmor6WzSyHS4cTsKwcUPI4N1m2OOWPAGFAYsCDpidecX7snzzjiOE1SmmXnRtyTI0ZFvzuh3TFGK9aNn6G4PiQ?session=0&fife",
 				"https://doc-0g-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/vvd6gmopkk06tq2m8a6tk8rdq8/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5YfLIApKR9kbO88Ev4x4f2tNwUITPcIM2eyV4HXSpEXHzn1dalbDjHs0ttKsk5pRVwHzY41uLDFdDHvawVHpckm577TyzP_DQCncwINP40roJPcW3C1PeQ56q2CEUocOPp_YzgSyjeciXXCmHl5srHBVFEPyJ4sUSd8oV2qCImDJ-MT0a6N8yl0zhwzWQ?session=0&fife",
 				"https://doc-08-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/a7dcds1v9mjtcjcb5lgjmivd9o/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5b24OsPl6_A0zbQrXWMlcICIrTo1L7ZNIq2ivfG4uD99C6YGKJhh4FhzgTEBP4Y71oeN4njy6K9qmprjeSiXWSBjLs1TS9MMUnu1KnN2PQM-FGxJLf3QXchpxYyDXbpxTWQ9_sVkYS2ICGN5yhJaT-38gyH0fMsYdYmMauMtXfXeEOWeyhtO7Nto28ThA?session=0&fife",
 				"https://doc-08-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/ech57np36tq3si8bbda3tvrsik/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5b0lIKCLrarpGj1n6HbsJ_WDYNSMYz7ATI31LOFohwMjLaWmujB-NsbTYW2RsY2XS34Prf0nz6cskczO2lKQu3mtJHnnRFusIGR7MsIiIDxtcJPjQqh3L6cGclgB5h8kCY2XsTof6BMK-ttvHOd4x2421ZO32fpGM5q03CrjPvUchgCCt4yajXO-60_tw?session=0&fife",
 				"https://doc-10-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/782e6atfuibevrej7rqnk4d7do/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5Y276IfQBAKO9hc7sHM4HOMUa5V09lmheT1tWxKBNkSrIJ8UlXJL0_ap_Cr-0LCxMnkFJh9EAVSjF8pmfRb4cbgUGp6QwXI1h_bR83WbKmJEu6sZxsnFlL4PpM-bVVM_qpYDo6vY6cyZ8sp4iyjGrnfSK0OQuraaLkinI2T_mdpj5s8T2VjlRm-rpvFtw?session=0&fife",
 				"https://doc-10-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/dpctvmfvloq92mp3bhf3qgftj8/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5bzRd-seY-P55BDQREOjNCW8jF7dnI3iYkzdjeT33ZrSfpcYbuCEvhvirzmXjAQWveAXILm_lCf0jVRnzMoEVxA-WXKh_shUY2Z8KoTdZMtnrt0uy0fj4Rj9lfZr3UBllzm4vP2MEQ3MludKqQYnkptzTYmoEutnEgoEed0Ylg3Ren4N8HDNI2WJ551iw?session=0&fife",
-				"https://doc-0g-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/2im8v1iq3bvf2bdkif5j5esdl8/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5a4MpC6yxjaW9T9zHORzTB37HresHZE2aOSik9zYP7IcqcnKkjHiEishUBmHjB1iN0nhIb7FDDLXQKsicTZZhsIetBzQJLleUQ0aXcWlK2JSuIzVdPeO015SGkBwkTaxqqPVT8f55heH4n4WS2MNq2PGcuy3HBG6z8zuDrVVqOzMIDT7i2SeT4bHkE5ZA?session=0&fife"
+				"https://doc-0g-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/2im8v1iq3bvf2bdkif5j5esdl8/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5a4MpC6yxjaW9T9zHORzTB37HresHZE2aOSik9zYP7IcqcnKkjHiEishUBmHjB1iN0nhIb7FDDLXQKsicTZZhsIetBzQJLleUQ0aXcWlK2JSuIzVdPeO015SGkBwkTaxqqPVT8f55heH4n4WS2MNq2PGcuy3HBG6z8zuDrVVqOzMIDT7i2SeT4bHkE5ZA?session=0&fife",
+				"https://doc-0s-60-mymaps.googleusercontent.com/untrusted/hostedimage/qg91p3v0mo1pnho6r8jidvhk9s/10sqjb5q49hvc2g1jjsntlh220/1629734632500/Zb9jRw7H_Z1-MPq-jfOzOisz1U10Szw0/08995818880153249282/5AOlzF5YQbAGUvcK7tzU4zWz2ODT20MVOT52wVBpUfdbTdNU9G_LFegs3Twkj3DBtyFMJHftPWTvL8QF12NmcWIOJT4XDME9w51Rgmw9bwNIG760VfshdnbED4BwQFzJraXeA9bn0DMxBZpeWLknCa51ha7_uU6mtzUQ4U3aNvHM-izQKFZqukQNCs2y3WBufVg?session=0&fife"
 			]
 		}
 	},
@@ -426,46 +476,297 @@
 		}
 	},
 	"Quinta das Laranjairas De Amares": {
-		"name": "Casa"
+		"name": "Casa",
+		"id": "",
+		"aquapolis": {
+			"id": "",
+			"name": "",
+			"url": "",
+			"summary": "",
+			"description": "",
+			"coordinates": "",
+			"satellite":"",
+			"media_links": []
+		}
+	
 	},
 	"Praia Fluvial Garrafas, Coucieiro": {
-		"name": "Garrafas/Coucieiro"
-	},
-	"Saber ao Borralho": {},
-	"Sete Lagoas": {},
-	"Águas quentes de Lobios": {
-		"name":"Torneros"
-	},
-	"Cascata de Pincães": {},
-	"Cascata de S. Miguel, Portela do Homem": {
-		"name": "Cascata em Portela do Homem"
-	},
-	"Cascatas de Fecha de Barjas": {},
-	"Ilha do Ermal": {},
-	"Miradouro das Rocas": {},
-	"Poço Azul": {},
+		"name": "Garrafas/Coucieiro",
+		"id": "",
+		"aquapolis": {
+			"id": "",
+			"name": "",
+			"url": "",
+			"summary": "",
+			"description": "",
+			"coordinates": "",
+			"satellite":"",
+			"media_links": []
+		}
+	
+	},	
 	"Pingo Doce Braga - Frossos": {
-		"name": " "
+		"id": "",
+		"name": "",
+		"aquapolis": {
+			"id": "",
+			"name": "",
+			"url": "",
+			"summary": "",
+			"description": "",
+			"coordinates": "",
+			"satellite":"",
+			"media_links": []
+		}
 	},
 	"Pingo Doce Vila Verde": {
-		"name": " "
+		"id": "",
+		"name": "",
+		"aquapolis": {
+			"id": "",
+			"name": "",
+			"url": "",
+			"summary": "",
+			"description": "",
+			"coordinates": "",
+			"satellite":"",
+			"media_links": []
+		}
 	},
 	"Minipreço - Amares": {
-		"name": " "
+		"id": "",
+		"name": "",
+		"aquapolis": {
+			"id": "",
+			"name": "",
+			"url": "",
+			"summary": "",
+			"description": "",
+			"coordinates": "",
+			"satellite":"",
+			"media_links": []
+		}
 	},
 	"Praia Fluvial do Barquinho": {
-		"name": "Barquinho"
+		"id": "",
+		"name": "Barquinho",
+		"aquapolis": {
+			"id": "",
+			"name": "",
+			"url": "",
+			"summary": "",
+			"description": "",
+			"coordinates": "",
+			"satellite":"",
+			"media_links": []
+		}
+	
 	},
 	"Praia Fluvial - Souto - Terras de Bouro": {
-		"name": "Souto"
+		"name": "Souto",
+		"id": "",
+		"aquapolis": {
+			"id": "",
+			"name": "",
+			"url": "",
+			"summary": "",
+			"description": "",
+			"coordinates": "",
+			"satellite":"",
+			"media_links": []
+		}
+	
 	},
 	"Praia Fluvial De Monsul": {
-		"name": "Monsul"
+		"id": "",
+		"name": "Monsul",
+		"aquapolis": {
+			"id": "",
+			"name": "",
+			"url": "",
+			"summary": "",
+			"description": "",
+			"coordinates": "",
+			"satellite":"",
+			"media_links": []
+		}	
 	},
 	"Praia Fluvial de Barreiros": {
-		"name": "Barreiros"
+		"id": "",
+		"name": "Barreiros",
+		"aquapolis": {
+			"id": "",
+			"name": "Praia Fluvial de Barreiros",
+			"url": "https://maps.google.com/maps?cid=-5288018855343024737",
+			"summary": "Praia Fluvial de Barreiros",
+			"description": "",
+			"coordinates": "",
+			"satellite":"./images/2021-08-29 08_05_31-Praia Fluvial de Barreiros.png",
+			"media_links": [
+				"https://lh3.ggpht.com/p/AF1QipO5KxgVqdcRe6zgp0_Feccyh6Uit6bZPBBC26qt=s1024",
+				"https://lh3.ggpht.com/p/AF1QipPr3uyFF1NiUPVdXChVNwJ2iZ7n9vHXFTKdzTun=s1024",
+				"https://lh5.googleusercontent.com/p/AF1QipOwh5X7GkPRY8hvwhBMFM0Vc_HnyX5Nt9a7VCNC=s845-k-no",
+				"https://lh3.ggpht.com/p/AF1QipP86d3fA3gVnhWlE8HZ7wH_TLy15BQbU__wwUyD=s1024",
+				"https://lh5.googleusercontent.com/p/AF1QipMvxPhkMvlY8gxt5YRmE7yQQTYgqCeHS8WSLRU5=s761-k-no",
+				"https://lh5.googleusercontent.com/p/AF1QipNl_mTw39psdQA3ytZBbaFstSlgehOrXx2iYtW0=s967-k-no",
+				"https://lh5.googleusercontent.com/p/AF1QipOdM5-rgF0WcBBAFA5H5h68oz45jTdW8z0R5WZh=s967-k-no",
+				"https://lh5.googleusercontent.com/p/AF1QipMXdYzKUthnyaabR5toVlk9gQe7KUIQ77IqNJk=s845-k-no",
+				"https://lh3.ggpht.com/p/AF1QipPt2kZSo722lrpFzpFfc50m3czRy96DUzcz7qaV=s1024",
+				"https://lh5.googleusercontent.com/p/AF1QipORUlaQLyBNlD_AGE2SwTPOv-RhJm4YZfp8BfYk=s953-k-no",
+				"https://lh5.googleusercontent.com/p/AF1QipMrm36ukGX5HSiuh3hBlfENK7-lAKaARroq3Svj=s845-k-no"
+			]
+		}
 	},
 	"Praia Fluvial do Vau": {
-		"name": "Vau"
+		"name": "Vau",
+		"id": "",
+		"aquapolis": {
+			"id": "",
+			"name": "",
+			"url": "",
+			"summary": "",
+			"description": "",
+			"coordinates": "",
+			"satellite":"",
+			"media_links": []
+		}
+	
+	},
+	"Saber ao Borralho": {},
+	"Sete Lagoas": {
+		"id": "",
+		"name": "",
+		"aquapolis": {
+			"id": "",
+			"name": "",
+			"url": "",
+			"summary": "",
+			"description": "",
+			"coordinates": "",
+			"satellite":"",
+			"media_links": []
+		}
+	},
+	"Águas quentes de Lobios": {
+		"name":"Torneros",
+		"id": "",
+		"aquapolis": {
+			"id": "",
+			"name": "",
+			"url": "",
+			"summary": "",
+			"description": "",
+			"coordinates": "",
+			"satellite":"",
+			"media_links": []
+		}
+	
+	},
+	"Cascata de Pincães": {
+		"name": "Cascata de Pincães",
+		"id": "",
+		"aquapolis": {
+			"id": "",
+			"name": "Cascata de Pincães",
+			"url": "",
+			"summary": "<p>A cascata de Pincães é uma das mais belas cascatas e uma das mais visitadas do Parque Nacional da Peneda-Gerês. O rio de Pincães corre aqui numa garganta relativamente profunda, para o rio Cávado, precipitando-se de forma abrupta na vertente granítica, formando a cascata de Pincães.</p><p>A queda de água precipita-se de uma altura de cerca de 20 metros, alimentando uma pequena lagoa de água translucida, muito convidativa à contemplação, ao relaxamento, à fotografia e ao lazer.</p><p>A cascata de Pincães deve ser visitada pelo caminho que vem da aldeia, com a devida cautela para evitar quedas.</p>",
+			"description": "",
+			"coordinates": "",
+			"satellite":"./images/2021-08-29 09_28_06-Cascata de Pincães.png",
+			"media_links": [
+				"https://lh3.ggpht.com/p/AF1QipO4P2zQ6LWj57Mevc1fdbV1c5EX844mfxvFeSq8=s1024",
+				"https://lh5.googleusercontent.com/p/AF1QipPMx-RM17rcz3YPD9TBVIkFezwGBR_8Dk6R8e6H=s845-k-no",
+				"https://lh3.ggpht.com/p/AF1QipMb03GX0gYpFMs6brsDnypNZ6Zw8XkNdYBLT0-O=s1024",
+				"https://lh5.googleusercontent.com/p/AF1QipOHCDGXJZJvoknoisQ4hokZYbOeV6h6srLifpGq=s967-k-no",
+				"https://lh5.googleusercontent.com/p/AF1QipPmnRINVVmWo2nfF3qzbP6yb3TuMDj05Ig5TA99=s964-k-no",
+				"https://lh3.ggpht.com/p/AF1QipNlSfq91pmXFworsjd5sTFR72KGScob9Qj5J6i4=s1024",
+				"https://lh3.ggpht.com/p/AF1QipP-j8sbVPgUVtEpkQNE_DOxoPeKJYFeHo0I25yJ=s1024",
+				"https://lh3.ggpht.com/p/AF1QipNFkUPo0gJC42lFBmof46ojsUoDP1ZpiY6voYmz=s1024"
+			]
+		}
+	},
+	"Cascata de S. Miguel, Portela do Homem": {
+		"name": "Cascata em Portela do Homem",
+		"id": "",
+		"aquapolis": {
+			"id": "",
+			"name": "",
+			"url": "",
+			"summary": "",
+			"description": "",
+			"coordinates": "",
+			"satellite":"",
+			"media_links": []
+		}
+	
+	},
+	"Cascatas de Fecha de Barjas": {
+		"id": "",
+		"name": "Fecha de Barjas (Tahiti)",
+		"aquapolis": {
+			"id": "",
+			"name": "Cascata Fecha de Barjas (Tahiti)",
+			"url": "https://turismo.cm-terrasdebouro.pt/listings/fecha-de-barjas-cascata/",
+			"summary": "A Cascata Fecha de Barjas, conhecida por muitos turistas como Cascata do Tahiti, localiza-se perto da aldeia da Ermida, na estrada que liga esta aldeia à localidade de Fafião (Montalegre). </br> Com as suas águas provenientes do rio Arado é uma das quedas d’água mais deslumbrante do Gerês e cada vez mais procurada por turistas e visitantes da região, o que também obriga a grandes cuidados no acesso e usufruição das suas águas pelos perigos de queda. </br> O seu acesso é feito a pé pela margem esquerda do rio Arado, mesmo junto à ponte sobre o rio. Depois de alguns minutos a descer por um caminho em terra batida é necessário transpor um segundo rio, o Fafião, para chegar à parte inferior onde é possível visualizar toda a queda de água (local mais seguro para banhos). A transposição do rio Fafião está dependente do nível do seu caudal.",
+			"description": "",
+			"coordinates": "",
+			"satellite":"./images/2021-08-29 08_35_29-Cascatas de Fecha de Barjas.png",
+			"media_links": [
+				"https://lh5.googleusercontent.com/p/AF1QipOTqd6rJcHYmFJrpFrr_b_huuQpYLDEtK6lMyHz=s845-k-no",
+				"https://lh5.googleusercontent.com/p/AF1QipPPXKVSEhJPTYnrDlMga9NHZHnVHIbV0Peodu37=s845-k-no",
+				"https://lh5.googleusercontent.com/p/AF1QipPwC8han_Ow1ZOpLc5KLdZ2t_dPyxp2GD0EPnkS=s953-k-no",
+				"https://lh5.googleusercontent.com/p/AF1QipO6oyfruHShak3WKijrwlmvaRh7LWqmPKChii35=s845-k-no",
+				"https://lh3.ggpht.com/p/AF1QipNte8143zlPCwiva2s7-841NUOgixDIuiJ5LHjt=s1024",
+				"https://lh5.googleusercontent.com/p/AF1QipM4fJAF0LFiO2JNIl4JTCTVliPLb00AS0mi0qKj=s845-k-no",
+				"https://lh3.ggpht.com/p/AF1QipPwC8han_Ow1ZOpLc5KLdZ2t_dPyxp2GD0EPnkS=s512",
+				"https://lh3.ggpht.com/p/AF1QipMkH6abWvXBxGjYR19H5B-wOeInen6ALq8RdCaW=s1024",
+				"https://lh3.ggpht.com/p/AF1QipOw-8s1fSC-Da6nKnI686MHkFodMTK1T708fCUa=s1024",
+				"https://lh3.ggpht.com/p/AF1QipPIxi8Dny7-jVaJN8mKtucmpx4Cq8fx7jAMbjqp=s1024"
+			]
+		}
+	},
+	"Ilha do Ermal": {
+		"id": "",
+		"name": "",
+		"aquapolis": {
+			"id": "",
+			"name": "",
+			"url": "",
+			"summary": "",
+			"description": "",
+			"coordinates": "",
+			"satellite":"",
+			"media_links": []
+		}
+	},
+	"Miradouro das Rocas": {
+		"id": "",
+		"name": "",
+		"aquapolis": {
+			"id": "",
+			"name": "",
+			"url": "",
+			"summary": "",
+			"description": "",
+			"coordinates": "",
+			"satellite":"",
+			"media_links": []
+		}
+	},
+	"Poço Azul": {
+		"id": "",
+		"name": "",
+		"aquapolis": {
+			"id": "",
+			"name": "",
+			"url": "",
+			"summary": "",
+			"description": "",
+			"coordinates": "",
+			"satellite":"",
+			"media_links": []
+		}
 	}
+
 }
+

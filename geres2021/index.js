@@ -193,14 +193,14 @@ function initialize( locationsFullData ) {
               <span id="title" class="card-title">${locationName}</span>
             </div>
             <div class="card-content">
-              <p id="summary">${summary}</p>
+              ${summary}
             </div>
         ` 
 
         if( mediaLinks ){
           for(let i = 1 ; i < mediaLinks.length ; i++){
             infopanelhtml = `${infopanelhtml}
-            <img src="${mediaLinks[i]}" />`  ;
+            <img src="${mediaLinks[i]}" width="512"/>`  ;
           }
         }
 
